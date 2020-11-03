@@ -1,0 +1,485 @@
+{
+    "Station": "吉祥寺",
+    "Sum": [
+        {
+            "Line": "中央線三鷹・高尾方面",
+            "number": "392"
+        },
+        {
+            "Line": "中央線東京・千葉方面",
+            "number": "374"
+        },
+        {
+            "Line": "京王井の頭線富士見ケ丘・渋谷方面",
+            "number": "310"
+        },
+        {
+            "Line": "東京メトロ東西線三鷹方面",
+            "number": "94"
+        },
+        {
+            "Line": "東京メトロ東西線西船橋・東葉勝田台方面",
+            "number": "94"
+        },
+        {
+            "Line": "成田エクスプレス高尾方面",
+            "number": "2"
+        },
+        {
+            "Line": "成田エクスプレス成田空港方面",
+            "number": "1"
+        }
+    ],
+    "Linelist": [
+        {
+            "Line": "中央線三鷹・高尾方面",
+            "Linecode": "1",
+            "HourTable": [
+                {
+                    "Hour": "4",
+                    "number": "2"
+                },
+                {
+                    "Hour": "5",
+                    "number": "6"
+                },
+                {
+                    "Hour": "6",
+                    "number": "13"
+                },
+                {
+                    "Hour": "7",
+                    "number": "18"
+                },
+                {
+                    "Hour": "8",
+                    "number": "37"
+                },
+                {
+                    "Hour": "9",
+                    "number": "38"
+                },
+                {
+                    "Hour": "10",
+                    "number": "20"
+                },
+                {
+                    "Hour": "11",
+                    "number": "13"
+                },
+                {
+                    "Hour": "12",
+                    "number": "13"
+                },
+                {
+                    "Hour": "13",
+                    "number": "13"
+                },
+                {
+                    "Hour": "14",
+                    "number": "13"
+                },
+                {
+                    "Hour": "15",
+                    "number": "13"
+                },
+                {
+                    "Hour": "16",
+                    "number": "15"
+                },
+                {
+                    "Hour": "17",
+                    "number": "26"
+                },
+                {
+                    "Hour": "18",
+                    "number": "29"
+                },
+                {
+                    "Hour": "19",
+                    "number": "27"
+                },
+                {
+                    "Hour": "20",
+                    "number": "25"
+                },
+                {
+                    "Hour": "21",
+                    "number": "22"
+                },
+                {
+                    "Hour": "22",
+                    "number": "18"
+                },
+                {
+                    "Hour": "23",
+                    "number": "15"
+                },
+                {
+                    "Hour": "24",
+                    "number": "12"
+                },
+                {
+                    "Hour": "25",
+                    "number": "4"
+                }
+            ]
+        },
+        {
+            "Line": "中央線東京・千葉方面",
+            "Linecode": "2",
+            "HourTable": [
+                {
+                    "Hour": "4",
+                    "number": "4"
+                },
+                {
+                    "Hour": "5",
+                    "number": "12"
+                },
+                {
+                    "Hour": "6",
+                    "number": "17"
+                },
+                {
+                    "Hour": "7",
+                    "number": "34"
+                },
+                {
+                    "Hour": "8",
+                    "number": "37"
+                },
+                {
+                    "Hour": "9",
+                    "number": "19"
+                },
+                {
+                    "Hour": "10",
+                    "number": "13"
+                },
+                {
+                    "Hour": "11",
+                    "number": "14"
+                },
+                {
+                    "Hour": "12",
+                    "number": "12"
+                },
+                {
+                    "Hour": "13",
+                    "number": "13"
+                },
+                {
+                    "Hour": "14",
+                    "number": "13"
+                },
+                {
+                    "Hour": "15",
+                    "number": "13"
+                },
+                {
+                    "Hour": "16",
+                    "number": "23"
+                },
+                {
+                    "Hour": "17",
+                    "number": "28"
+                },
+                {
+                    "Hour": "18",
+                    "number": "23"
+                },
+                {
+                    "Hour": "19",
+                    "number": "24"
+                },
+                {
+                    "Hour": "20",
+                    "number": "22"
+                },
+                {
+                    "Hour": "21",
+                    "number": "19"
+                },
+                {
+                    "Hour": "22",
+                    "number": "13"
+                },
+                {
+                    "Hour": "23",
+                    "number": "15"
+                },
+                {
+                    "Hour": "24",
+                    "number": "6"
+                }
+            ]
+        },
+        {
+            "Line": "京王井の頭線富士見ケ丘・渋谷方面",
+            "Linecode": "3",
+            "HourTable": [
+                {
+                    "Hour": "4",
+                    "number": "1"
+                },
+                {
+                    "Hour": "5",
+                    "number": "6"
+                },
+                {
+                    "Hour": "6",
+                    "number": "16"
+                },
+                {
+                    "Hour": "7",
+                    "number": "19"
+                },
+                {
+                    "Hour": "8",
+                    "number": "16"
+                },
+                {
+                    "Hour": "9",
+                    "number": "19"
+                },
+                {
+                    "Hour": "10",
+                    "number": "15"
+                },
+                {
+                    "Hour": "11",
+                    "number": "14"
+                },
+                {
+                    "Hour": "12",
+                    "number": "16"
+                },
+                {
+                    "Hour": "13",
+                    "number": "15"
+                },
+                {
+                    "Hour": "14",
+                    "number": "15"
+                },
+                {
+                    "Hour": "15",
+                    "number": "14"
+                },
+                {
+                    "Hour": "16",
+                    "number": "18"
+                },
+                {
+                    "Hour": "17",
+                    "number": "17"
+                },
+                {
+                    "Hour": "18",
+                    "number": "19"
+                },
+                {
+                    "Hour": "19",
+                    "number": "20"
+                },
+                {
+                    "Hour": "20",
+                    "number": "14"
+                },
+                {
+                    "Hour": "21",
+                    "number": "16"
+                },
+                {
+                    "Hour": "22",
+                    "number": "17"
+                },
+                {
+                    "Hour": "23",
+                    "number": "14"
+                },
+                {
+                    "Hour": "24",
+                    "number": "8"
+                },
+                {
+                    "Hour": "25",
+                    "number": "1"
+                }
+            ]
+        },
+        {
+            "Line": "東京メトロ東西線三鷹方面",
+            "Linecode": "4",
+            "HourTable": [
+                {
+                    "Hour": "6",
+                    "number": "5"
+                },
+                {
+                    "Hour": "7",
+                    "number": "8"
+                },
+                {
+                    "Hour": "8",
+                    "number": "7"
+                },
+                {
+                    "Hour": "9",
+                    "number": "10"
+                },
+                {
+                    "Hour": "10",
+                    "number": "4"
+                },
+                {
+                    "Hour": "11",
+                    "number": "4"
+                },
+                {
+                    "Hour": "12",
+                    "number": "4"
+                },
+                {
+                    "Hour": "13",
+                    "number": "4"
+                },
+                {
+                    "Hour": "14",
+                    "number": "4"
+                },
+                {
+                    "Hour": "15",
+                    "number": "4"
+                },
+                {
+                    "Hour": "16",
+                    "number": "7"
+                },
+                {
+                    "Hour": "17",
+                    "number": "9"
+                },
+                {
+                    "Hour": "18",
+                    "number": "9"
+                },
+                {
+                    "Hour": "19",
+                    "number": "6"
+                },
+                {
+                    "Hour": "20",
+                    "number": "4"
+                },
+                {
+                    "Hour": "21",
+                    "number": "4"
+                },
+                {
+                    "Hour": "22",
+                    "number": "1"
+                }
+            ]
+        },
+        {
+            "Line": "東京メトロ東西線西船橋・東葉勝田台方面",
+            "Linecode": "5",
+            "HourTable": [
+                {
+                    "Hour": "5",
+                    "number": "1"
+                },
+                {
+                    "Hour": "6",
+                    "number": "8"
+                },
+                {
+                    "Hour": "7",
+                    "number": "8"
+                },
+                {
+                    "Hour": "8",
+                    "number": "7"
+                },
+                {
+                    "Hour": "9",
+                    "number": "8"
+                },
+                {
+                    "Hour": "10",
+                    "number": "4"
+                },
+                {
+                    "Hour": "11",
+                    "number": "4"
+                },
+                {
+                    "Hour": "12",
+                    "number": "4"
+                },
+                {
+                    "Hour": "13",
+                    "number": "4"
+                },
+                {
+                    "Hour": "14",
+                    "number": "4"
+                },
+                {
+                    "Hour": "15",
+                    "number": "4"
+                },
+                {
+                    "Hour": "16",
+                    "number": "9"
+                },
+                {
+                    "Hour": "17",
+                    "number": "9"
+                },
+                {
+                    "Hour": "18",
+                    "number": "9"
+                },
+                {
+                    "Hour": "19",
+                    "number": "6"
+                },
+                {
+                    "Hour": "20",
+                    "number": "2"
+                },
+                {
+                    "Hour": "21",
+                    "number": "3"
+                }
+            ]
+        },
+        {
+            "Line": "成田エクスプレス高尾方面",
+            "Linecode": "6",
+            "HourTable": [
+                {
+                    "Hour": "21",
+                    "number": "1"
+                },
+                {
+                    "Hour": "22",
+                    "number": "1"
+                }
+            ]
+        },
+        {
+            "Line": "成田エクスプレス成田空港方面",
+            "Linecode": "7",
+            "HourTable": [
+                {
+                    "Hour": "6",
+                    "number": 1
+                }
+            ]
+        }
+    ]
+}
