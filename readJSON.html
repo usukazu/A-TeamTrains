@@ -16,45 +16,29 @@
     .range([255,0]);
 var width = 800;
 var height = 800;
-var populationHash = {};
 
-// d3.csv("./Japan2015Data.csv").then(function(data){
-//     data.forEach(function(d)
-//     {
-//         populationHash[d.Prefecture] = d.Population;
-//     });
-//     showMap();
-// });
-// function showMap(){
 let dataset;
-d3.json("./in03.json").then(function(data){
-    //console.log(data);
-    let TimeTable = data.Linelist[0]["Weekday"]["HourTable"];
-    console.log(TimeTable);
-    showGraph(TimeTable);
+d3.json("./komabanew.json").then(function(data){
+    let dataset = data;
+    showGraph(dataset);
+    
 });
-function showGraph(TimeTable){
-    var table_size = TimeTable.lengh;
+function showGraph(dataset){
     var svg = d3.select("body").append("svg")
     .attr("width", 2000)
     .attr("height", 1000);
 
+    var TimeTable = dataset.Linelist[0]["HourTable"]
     var bar = svg.selectAll("rect")
     .data(TimeTable)
     .enter()
     .append("rect");
-    //let hour = TimeTable[0].Hour;
-    //let num = TimeTable[0].number;
-    console.log(bar);
-    bar.attr("x", function(d, i) { return i * 40 + 20; })
-    //.attr("y", 400)
-    //.attr("height", 0)
+    
+    console.log(dataset);
+    
+    
+    bar.attr("x", function(Timetable, i) { return i * 40 + 20; })
     .attr("width", 20)
-
-    //d3.selectAll("rect")
-    //.transition()
-    //.duration(1500)
-    //.ease(d3.easePolyIn)
     .attr("y", function(d,i) { return 200 - d.number * 5; })
     .attr("height", function(d,i) { return d.number * 5;})
     .attr("fill","green");
@@ -64,10 +48,46 @@ function showGraph(TimeTable){
     .enter()
     .append("text");
 
-    var graph_text = text.text(function(d,i) { return d.Hour;})
+    var tt_text = text.text(function(d,i) { return d.Hour;})
     .attr("x", function(d, i) { return (i*40) + 25;})
     .attr("y", 220);
+
+    svg.append("text")
+    .attr("x",width/2)
+    .attr("y", 16)
+    .text("時間帯別");
+
+    var data = dataset.Sum;
+    var box = svg.selectAll("circle")
+    .data(data)
+    .enter()
+    .append("rect");
+    //console.log(dataset.Sum);
+    box.attr("x", function(d, i) { return i * 40 + 20; })
+        .attr("width",20)
+        .attr("y", function(d,i) { return 500 - d.number ; })
+        .attr("height", function(d,i) { return d.number ;})
+        .attr("fill","blue"); 
+    var deg = -45;
+    var text1 = svg.selectAll("text1")
+    .data(data)
+    .enter()
+    .append("text");
+    
+    //.attr("text-anchor", "end");
+    
+    
+    var sum_text = text1.text(function(d,i) { return d.Line;})
+    .attr("x", function(d, i) { return (i*40) + 25;})
+    .attr("y", 520)
+    //.attr("transform", "rotate("+deg+")");
+
+    svg.append("text")
+    .attr("x",15)
+    .attr("y", 290)
+    .text("路線方面別");
 }
+
 
 </script>
 </body></html>
