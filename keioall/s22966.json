@@ -1,0 +1,439 @@
+{
+    "Station": "分倍河原",
+    "Sum": [
+        {
+            "Line": "南武線武蔵中原・川崎方面",
+            "number": "136"
+        },
+        {
+            "Line": "南武線立川方面",
+            "number": "136"
+        },
+        {
+            "Line": "京王線高尾山口・京王八王子方面",
+            "number": "222"
+        },
+        {
+            "Line": "京王線新宿・本八幡方面",
+            "number": "220"
+        },
+        {
+            "Line": "京王ライナー京王八王子方面",
+            "number": "7"
+        },
+        {
+            "Line": "京王ライナー新宿方面",
+            "number": "5"
+        }
+    ],
+    "Linelist": [
+        {
+            "Line": "南武線武蔵中原・川崎方面",
+            "Linecode": "1",
+            "HourTable": [
+                {
+                    "Hour": "4",
+                    "number": "1"
+                },
+                {
+                    "Hour": "5",
+                    "number": "2"
+                },
+                {
+                    "Hour": "6",
+                    "number": "7"
+                },
+                {
+                    "Hour": "7",
+                    "number": "13"
+                },
+                {
+                    "Hour": "8",
+                    "number": "7"
+                },
+                {
+                    "Hour": "9",
+                    "number": "7"
+                },
+                {
+                    "Hour": "10",
+                    "number": "8"
+                },
+                {
+                    "Hour": "11",
+                    "number": "8"
+                },
+                {
+                    "Hour": "12",
+                    "number": "8"
+                },
+                {
+                    "Hour": "13",
+                    "number": "8"
+                },
+                {
+                    "Hour": "14",
+                    "number": "8"
+                },
+                {
+                    "Hour": "15",
+                    "number": "8"
+                },
+                {
+                    "Hour": "16",
+                    "number": "7"
+                },
+                {
+                    "Hour": "17",
+                    "number": "6"
+                },
+                {
+                    "Hour": "18",
+                    "number": "7"
+                },
+                {
+                    "Hour": "19",
+                    "number": "6"
+                },
+                {
+                    "Hour": "20",
+                    "number": "7"
+                },
+                {
+                    "Hour": "21",
+                    "number": "7"
+                },
+                {
+                    "Hour": "22",
+                    "number": "6"
+                },
+                {
+                    "Hour": "23",
+                    "number": "3"
+                },
+                {
+                    "Hour": "24",
+                    "number": "2"
+                }
+            ]
+        },
+        {
+            "Line": "南武線立川方面",
+            "Linecode": "2",
+            "HourTable": [
+                {
+                    "Hour": "4",
+                    "number": "1"
+                },
+                {
+                    "Hour": "5",
+                    "number": "3"
+                },
+                {
+                    "Hour": "6",
+                    "number": "9"
+                },
+                {
+                    "Hour": "7",
+                    "number": "10"
+                },
+                {
+                    "Hour": "8",
+                    "number": "8"
+                },
+                {
+                    "Hour": "9",
+                    "number": "6"
+                },
+                {
+                    "Hour": "10",
+                    "number": "7"
+                },
+                {
+                    "Hour": "11",
+                    "number": "8"
+                },
+                {
+                    "Hour": "12",
+                    "number": "8"
+                },
+                {
+                    "Hour": "13",
+                    "number": "8"
+                },
+                {
+                    "Hour": "14",
+                    "number": "8"
+                },
+                {
+                    "Hour": "15",
+                    "number": "8"
+                },
+                {
+                    "Hour": "16",
+                    "number": "8"
+                },
+                {
+                    "Hour": "17",
+                    "number": "5"
+                },
+                {
+                    "Hour": "18",
+                    "number": "7"
+                },
+                {
+                    "Hour": "19",
+                    "number": "7"
+                },
+                {
+                    "Hour": "20",
+                    "number": "7"
+                },
+                {
+                    "Hour": "21",
+                    "number": "6"
+                },
+                {
+                    "Hour": "22",
+                    "number": "6"
+                },
+                {
+                    "Hour": "23",
+                    "number": "4"
+                },
+                {
+                    "Hour": "24",
+                    "number": "2"
+                }
+            ]
+        },
+        {
+            "Line": "京王線高尾山口・京王八王子方面",
+            "Linecode": "3",
+            "HourTable": [
+                {
+                    "Hour": "5",
+                    "number": "2"
+                },
+                {
+                    "Hour": "6",
+                    "number": "8"
+                },
+                {
+                    "Hour": "7",
+                    "number": "12"
+                },
+                {
+                    "Hour": "8",
+                    "number": "13"
+                },
+                {
+                    "Hour": "9",
+                    "number": "15"
+                },
+                {
+                    "Hour": "10",
+                    "number": "13"
+                },
+                {
+                    "Hour": "11",
+                    "number": "12"
+                },
+                {
+                    "Hour": "12",
+                    "number": "12"
+                },
+                {
+                    "Hour": "13",
+                    "number": "12"
+                },
+                {
+                    "Hour": "14",
+                    "number": "12"
+                },
+                {
+                    "Hour": "15",
+                    "number": "12"
+                },
+                {
+                    "Hour": "16",
+                    "number": "11"
+                },
+                {
+                    "Hour": "17",
+                    "number": "12"
+                },
+                {
+                    "Hour": "18",
+                    "number": "12"
+                },
+                {
+                    "Hour": "19",
+                    "number": "12"
+                },
+                {
+                    "Hour": "20",
+                    "number": "12"
+                },
+                {
+                    "Hour": "21",
+                    "number": "12"
+                },
+                {
+                    "Hour": "22",
+                    "number": "11"
+                },
+                {
+                    "Hour": "23",
+                    "number": "8"
+                },
+                {
+                    "Hour": "24",
+                    "number": "9"
+                }
+            ]
+        },
+        {
+            "Line": "京王線新宿・本八幡方面",
+            "Linecode": "4",
+            "HourTable": [
+                {
+                    "Hour": "4",
+                    "number": "2"
+                },
+                {
+                    "Hour": "5",
+                    "number": "7"
+                },
+                {
+                    "Hour": "6",
+                    "number": "9"
+                },
+                {
+                    "Hour": "7",
+                    "number": "14"
+                },
+                {
+                    "Hour": "8",
+                    "number": "13"
+                },
+                {
+                    "Hour": "9",
+                    "number": "12"
+                },
+                {
+                    "Hour": "10",
+                    "number": "12"
+                },
+                {
+                    "Hour": "11",
+                    "number": "12"
+                },
+                {
+                    "Hour": "12",
+                    "number": "12"
+                },
+                {
+                    "Hour": "13",
+                    "number": "12"
+                },
+                {
+                    "Hour": "14",
+                    "number": "12"
+                },
+                {
+                    "Hour": "15",
+                    "number": "12"
+                },
+                {
+                    "Hour": "16",
+                    "number": "12"
+                },
+                {
+                    "Hour": "17",
+                    "number": "12"
+                },
+                {
+                    "Hour": "18",
+                    "number": "12"
+                },
+                {
+                    "Hour": "19",
+                    "number": "12"
+                },
+                {
+                    "Hour": "20",
+                    "number": "12"
+                },
+                {
+                    "Hour": "21",
+                    "number": "12"
+                },
+                {
+                    "Hour": "22",
+                    "number": "8"
+                },
+                {
+                    "Hour": "23",
+                    "number": "8"
+                },
+                {
+                    "Hour": "24",
+                    "number": "3"
+                }
+            ]
+        },
+        {
+            "Line": "京王ライナー京王八王子方面",
+            "Linecode": "5",
+            "HourTable": [
+                {
+                    "Hour": "17",
+                    "number": "1"
+                },
+                {
+                    "Hour": "18",
+                    "number": "1"
+                },
+                {
+                    "Hour": "19",
+                    "number": "1"
+                },
+                {
+                    "Hour": "20",
+                    "number": "1"
+                },
+                {
+                    "Hour": "21",
+                    "number": "1"
+                },
+                {
+                    "Hour": "22",
+                    "number": "1"
+                },
+                {
+                    "Hour": "23",
+                    "number": "1"
+                }
+            ]
+        },
+        {
+            "Line": "京王ライナー新宿方面",
+            "Linecode": "6",
+            "HourTable": [
+                {
+                    "Hour": "6",
+                    "number": "3"
+                },
+                {
+                    "Hour": "8",
+                    "number": "1"
+                },
+                {
+                    "Hour": "9",
+                    "number": "1"
+                }
+            ]
+        }
+    ]
+}
