@@ -120,19 +120,22 @@ function showGraph(dataset){
         .attr("y", function(d,i) { return 500 - d.number ; })
         .attr("height", function(d,i) { return d.number ;})
         .attr("fill","blue"); 
-    var deg = -45;
+    
     var text1 = svg.selectAll("text1")
     .data(data)
     .enter()
-    .append("text");
+    .append("text")
+    .attr("text-anchor", "start");
+
+    var sum_text = text1
+    .attr("text-anchor", "start")
+    .attr("x", function(d, i) { return (i*34.6) + 280;})
+    .attr("y", function (d,i){return 440-(i*20);})
+    .attr("transform", "rotate(30)")
+    .text(function(d,i) { return d.Line;});
     
-    //.attr("text-anchor", "end");
     
-    
-    var sum_text = text1.text(function(d,i) { return d.Line;})
-    .attr("x", function(d, i) { return (i*40) + 25;})
-    .attr("y", 520)
-    //.attr("transform", "rotate("+deg+")");
+   // .attr("transform", "rotate(-30)");
 
     svg.append("text")
     .attr("x",15)

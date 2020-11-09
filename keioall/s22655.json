@@ -1,0 +1,255 @@
+{
+    "Station": "京王多摩センター",
+    "Sum": [
+        {
+            "Line": "京王相模原線橋本方面",
+            "number": "149"
+        },
+        {
+            "Line": "京王相模原線新宿・本八幡方面",
+            "number": "190"
+        },
+        {
+            "Line": "京王ライナー橋本方面",
+            "number": "8"
+        },
+        {
+            "Line": "京王ライナー新宿方面",
+            "number": "4"
+        }
+    ],
+    "Linelist": [
+        {
+            "Line": "京王相模原線橋本方面",
+            "Linecode": "1",
+            "HourTable": [
+                {
+                    "Hour": "4",
+                    "number": "1"
+                },
+                {
+                    "Hour": "5",
+                    "number": "4"
+                },
+                {
+                    "Hour": "6",
+                    "number": "5"
+                },
+                {
+                    "Hour": "7",
+                    "number": "7"
+                },
+                {
+                    "Hour": "8",
+                    "number": "7"
+                },
+                {
+                    "Hour": "9",
+                    "number": "10"
+                },
+                {
+                    "Hour": "10",
+                    "number": "9"
+                },
+                {
+                    "Hour": "11",
+                    "number": "6"
+                },
+                {
+                    "Hour": "12",
+                    "number": "6"
+                },
+                {
+                    "Hour": "13",
+                    "number": "6"
+                },
+                {
+                    "Hour": "14",
+                    "number": "6"
+                },
+                {
+                    "Hour": "15",
+                    "number": "6"
+                },
+                {
+                    "Hour": "16",
+                    "number": "9"
+                },
+                {
+                    "Hour": "17",
+                    "number": "11"
+                },
+                {
+                    "Hour": "18",
+                    "number": "10"
+                },
+                {
+                    "Hour": "19",
+                    "number": "11"
+                },
+                {
+                    "Hour": "20",
+                    "number": "11"
+                },
+                {
+                    "Hour": "21",
+                    "number": "8"
+                },
+                {
+                    "Hour": "22",
+                    "number": "8"
+                },
+                {
+                    "Hour": "23",
+                    "number": "4"
+                },
+                {
+                    "Hour": "24",
+                    "number": "4"
+                }
+            ]
+        },
+        {
+            "Line": "京王相模原線新宿・本八幡方面",
+            "Linecode": "2",
+            "HourTable": [
+                {
+                    "Hour": "4",
+                    "number": "1"
+                },
+                {
+                    "Hour": "5",
+                    "number": "3"
+                },
+                {
+                    "Hour": "6",
+                    "number": "10"
+                },
+                {
+                    "Hour": "7",
+                    "number": "13"
+                },
+                {
+                    "Hour": "8",
+                    "number": "9"
+                },
+                {
+                    "Hour": "9",
+                    "number": "11"
+                },
+                {
+                    "Hour": "10",
+                    "number": "10"
+                },
+                {
+                    "Hour": "11",
+                    "number": "10"
+                },
+                {
+                    "Hour": "12",
+                    "number": "9"
+                },
+                {
+                    "Hour": "13",
+                    "number": "9"
+                },
+                {
+                    "Hour": "14",
+                    "number": "9"
+                },
+                {
+                    "Hour": "15",
+                    "number": "9"
+                },
+                {
+                    "Hour": "16",
+                    "number": "9"
+                },
+                {
+                    "Hour": "17",
+                    "number": "12"
+                },
+                {
+                    "Hour": "18",
+                    "number": "12"
+                },
+                {
+                    "Hour": "19",
+                    "number": "12"
+                },
+                {
+                    "Hour": "20",
+                    "number": "12"
+                },
+                {
+                    "Hour": "21",
+                    "number": "12"
+                },
+                {
+                    "Hour": "22",
+                    "number": "8"
+                },
+                {
+                    "Hour": "23",
+                    "number": "5"
+                },
+                {
+                    "Hour": "24",
+                    "number": "5"
+                }
+            ]
+        },
+        {
+            "Line": "京王ライナー橋本方面",
+            "Linecode": "3",
+            "HourTable": [
+                {
+                    "Hour": "17",
+                    "number": "1"
+                },
+                {
+                    "Hour": "18",
+                    "number": "2"
+                },
+                {
+                    "Hour": "19",
+                    "number": "1"
+                },
+                {
+                    "Hour": "20",
+                    "number": "1"
+                },
+                {
+                    "Hour": "21",
+                    "number": "1"
+                },
+                {
+                    "Hour": "22",
+                    "number": "1"
+                },
+                {
+                    "Hour": "23",
+                    "number": "1"
+                }
+            ]
+        },
+        {
+            "Line": "京王ライナー新宿方面",
+            "Linecode": "4",
+            "HourTable": [
+                {
+                    "Hour": "5",
+                    "number": "1"
+                },
+                {
+                    "Hour": "6",
+                    "number": "1"
+                },
+                {
+                    "Hour": "8",
+                    "number": "2"
+                }
+            ]
+        }
+    ]
+}
