@@ -1,0 +1,643 @@
+{
+    "Station": "上大岡",
+    "Sum": [
+        {
+            "Line": "京急本線羽田空港第１・第２ターミナル・品川方面",
+            "number": "327"
+        },
+        {
+            "Line": "京急本線三崎口・浦賀方面",
+            "number": "342"
+        },
+        {
+            "Line": "横浜市営地下鉄ブルーライン新羽・あざみ野方面",
+            "number": "180"
+        },
+        {
+            "Line": "横浜市営地下鉄ブルーライン踊場・湘南台方面",
+            "number": "181"
+        },
+        {
+            "Line": "イブニング・ウィング京急久里浜・三崎口方面",
+            "number": "11"
+        },
+        {
+            "Line": "モーニング・ウィング品川・泉岳寺方面",
+            "number": "3"
+        }
+    ],
+    "Linelist": [
+        {
+            "Line": "京急本線羽田空港第１・第２ターミナル・品川方面",
+            "Linecode": "1",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0"
+                },
+                {
+                    "Hour": "4",
+                    "number": "0"
+                },
+                {
+                    "Hour": "5",
+                    "number": "12"
+                },
+                {
+                    "Hour": "6",
+                    "number": "16"
+                },
+                {
+                    "Hour": "7",
+                    "number": "26"
+                },
+                {
+                    "Hour": "8",
+                    "number": "22"
+                },
+                {
+                    "Hour": "9",
+                    "number": "16"
+                },
+                {
+                    "Hour": "10",
+                    "number": "18"
+                },
+                {
+                    "Hour": "11",
+                    "number": "18"
+                },
+                {
+                    "Hour": "12",
+                    "number": "18"
+                },
+                {
+                    "Hour": "13",
+                    "number": "18"
+                },
+                {
+                    "Hour": "14",
+                    "number": "18"
+                },
+                {
+                    "Hour": "15",
+                    "number": "18"
+                },
+                {
+                    "Hour": "16",
+                    "number": "18"
+                },
+                {
+                    "Hour": "17",
+                    "number": "21"
+                },
+                {
+                    "Hour": "18",
+                    "number": "19"
+                },
+                {
+                    "Hour": "19",
+                    "number": "17"
+                },
+                {
+                    "Hour": "20",
+                    "number": "18"
+                },
+                {
+                    "Hour": "21",
+                    "number": "14"
+                },
+                {
+                    "Hour": "22",
+                    "number": "11"
+                },
+                {
+                    "Hour": "23",
+                    "number": "8"
+                },
+                {
+                    "Hour": "24",
+                    "number": "1"
+                },
+                {
+                    "Hour": "25",
+                    "number": "0"
+                },
+                {
+                    "Hour": "26",
+                    "number": "0"
+                }
+            ]
+        },
+        {
+            "Line": "京急本線三崎口・浦賀方面",
+            "Linecode": "2",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0"
+                },
+                {
+                    "Hour": "4",
+                    "number": "0"
+                },
+                {
+                    "Hour": "5",
+                    "number": "5"
+                },
+                {
+                    "Hour": "6",
+                    "number": "9"
+                },
+                {
+                    "Hour": "7",
+                    "number": "17"
+                },
+                {
+                    "Hour": "8",
+                    "number": "20"
+                },
+                {
+                    "Hour": "9",
+                    "number": "20"
+                },
+                {
+                    "Hour": "10",
+                    "number": "18"
+                },
+                {
+                    "Hour": "11",
+                    "number": "19"
+                },
+                {
+                    "Hour": "12",
+                    "number": "18"
+                },
+                {
+                    "Hour": "13",
+                    "number": "18"
+                },
+                {
+                    "Hour": "14",
+                    "number": "18"
+                },
+                {
+                    "Hour": "15",
+                    "number": "18"
+                },
+                {
+                    "Hour": "16",
+                    "number": "16"
+                },
+                {
+                    "Hour": "17",
+                    "number": "21"
+                },
+                {
+                    "Hour": "18",
+                    "number": "24"
+                },
+                {
+                    "Hour": "19",
+                    "number": "22"
+                },
+                {
+                    "Hour": "20",
+                    "number": "17"
+                },
+                {
+                    "Hour": "21",
+                    "number": "19"
+                },
+                {
+                    "Hour": "22",
+                    "number": "17"
+                },
+                {
+                    "Hour": "23",
+                    "number": "15"
+                },
+                {
+                    "Hour": "24",
+                    "number": "11"
+                },
+                {
+                    "Hour": "25",
+                    "number": "0"
+                },
+                {
+                    "Hour": "26",
+                    "number": "0"
+                }
+            ]
+        },
+        {
+            "Line": "横浜市営地下鉄ブルーライン新羽・あざみ野方面",
+            "Linecode": "3",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0"
+                },
+                {
+                    "Hour": "4",
+                    "number": "0"
+                },
+                {
+                    "Hour": "5",
+                    "number": "4"
+                },
+                {
+                    "Hour": "6",
+                    "number": "12"
+                },
+                {
+                    "Hour": "7",
+                    "number": "14"
+                },
+                {
+                    "Hour": "8",
+                    "number": "14"
+                },
+                {
+                    "Hour": "9",
+                    "number": "8"
+                },
+                {
+                    "Hour": "10",
+                    "number": "10"
+                },
+                {
+                    "Hour": "11",
+                    "number": "10"
+                },
+                {
+                    "Hour": "12",
+                    "number": "10"
+                },
+                {
+                    "Hour": "13",
+                    "number": "10"
+                },
+                {
+                    "Hour": "14",
+                    "number": "10"
+                },
+                {
+                    "Hour": "15",
+                    "number": "10"
+                },
+                {
+                    "Hour": "16",
+                    "number": "9"
+                },
+                {
+                    "Hour": "17",
+                    "number": "10"
+                },
+                {
+                    "Hour": "18",
+                    "number": "10"
+                },
+                {
+                    "Hour": "19",
+                    "number": "10"
+                },
+                {
+                    "Hour": "20",
+                    "number": "8"
+                },
+                {
+                    "Hour": "21",
+                    "number": "8"
+                },
+                {
+                    "Hour": "22",
+                    "number": "6"
+                },
+                {
+                    "Hour": "23",
+                    "number": "5"
+                },
+                {
+                    "Hour": "24",
+                    "number": "2"
+                },
+                {
+                    "Hour": "25",
+                    "number": "0"
+                },
+                {
+                    "Hour": "26",
+                    "number": "0"
+                }
+            ]
+        },
+        {
+            "Line": "横浜市営地下鉄ブルーライン踊場・湘南台方面",
+            "Linecode": "4",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0"
+                },
+                {
+                    "Hour": "4",
+                    "number": "0"
+                },
+                {
+                    "Hour": "5",
+                    "number": "3"
+                },
+                {
+                    "Hour": "6",
+                    "number": "6"
+                },
+                {
+                    "Hour": "7",
+                    "number": "13"
+                },
+                {
+                    "Hour": "8",
+                    "number": "13"
+                },
+                {
+                    "Hour": "9",
+                    "number": "12"
+                },
+                {
+                    "Hour": "10",
+                    "number": "10"
+                },
+                {
+                    "Hour": "11",
+                    "number": "10"
+                },
+                {
+                    "Hour": "12",
+                    "number": "10"
+                },
+                {
+                    "Hour": "13",
+                    "number": "10"
+                },
+                {
+                    "Hour": "14",
+                    "number": "10"
+                },
+                {
+                    "Hour": "15",
+                    "number": "10"
+                },
+                {
+                    "Hour": "16",
+                    "number": "9"
+                },
+                {
+                    "Hour": "17",
+                    "number": "10"
+                },
+                {
+                    "Hour": "18",
+                    "number": "10"
+                },
+                {
+                    "Hour": "19",
+                    "number": "10"
+                },
+                {
+                    "Hour": "20",
+                    "number": "10"
+                },
+                {
+                    "Hour": "21",
+                    "number": "9"
+                },
+                {
+                    "Hour": "22",
+                    "number": "7"
+                },
+                {
+                    "Hour": "23",
+                    "number": "5"
+                },
+                {
+                    "Hour": "24",
+                    "number": "4"
+                },
+                {
+                    "Hour": "25",
+                    "number": "0"
+                },
+                {
+                    "Hour": "26",
+                    "number": "0"
+                }
+            ]
+        },
+        {
+            "Line": "イブニング・ウィング京急久里浜・三崎口方面",
+            "Linecode": "5",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0"
+                },
+                {
+                    "Hour": "4",
+                    "number": "0"
+                },
+                {
+                    "Hour": "5",
+                    "number": "0"
+                },
+                {
+                    "Hour": "6",
+                    "number": "0"
+                },
+                {
+                    "Hour": "7",
+                    "number": "0"
+                },
+                {
+                    "Hour": "8",
+                    "number": "0"
+                },
+                {
+                    "Hour": "9",
+                    "number": "0"
+                },
+                {
+                    "Hour": "10",
+                    "number": "0"
+                },
+                {
+                    "Hour": "11",
+                    "number": "0"
+                },
+                {
+                    "Hour": "12",
+                    "number": "0"
+                },
+                {
+                    "Hour": "13",
+                    "number": "0"
+                },
+                {
+                    "Hour": "14",
+                    "number": "0"
+                },
+                {
+                    "Hour": "15",
+                    "number": "0"
+                },
+                {
+                    "Hour": "16",
+                    "number": "0"
+                },
+                {
+                    "Hour": "17",
+                    "number": "0"
+                },
+                {
+                    "Hour": "18",
+                    "number": "0"
+                },
+                {
+                    "Hour": "19",
+                    "number": "2"
+                },
+                {
+                    "Hour": "20",
+                    "number": "4"
+                },
+                {
+                    "Hour": "21",
+                    "number": "2"
+                },
+                {
+                    "Hour": "22",
+                    "number": "2"
+                },
+                {
+                    "Hour": "23",
+                    "number": "1"
+                },
+                {
+                    "Hour": "24",
+                    "number": "0"
+                },
+                {
+                    "Hour": "25",
+                    "number": "0"
+                },
+                {
+                    "Hour": "26",
+                    "number": "0"
+                }
+            ]
+        },
+        {
+            "Line": "モーニング・ウィング品川・泉岳寺方面",
+            "Linecode": "6",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0"
+                },
+                {
+                    "Hour": "4",
+                    "number": "0"
+                },
+                {
+                    "Hour": "5",
+                    "number": "0"
+                },
+                {
+                    "Hour": "6",
+                    "number": "2"
+                },
+                {
+                    "Hour": "7",
+                    "number": "0"
+                },
+                {
+                    "Hour": "8",
+                    "number": "1"
+                },
+                {
+                    "Hour": "9",
+                    "number": "0"
+                },
+                {
+                    "Hour": "10",
+                    "number": "0"
+                },
+                {
+                    "Hour": "11",
+                    "number": "0"
+                },
+                {
+                    "Hour": "12",
+                    "number": "0"
+                },
+                {
+                    "Hour": "13",
+                    "number": "0"
+                },
+                {
+                    "Hour": "14",
+                    "number": "0"
+                },
+                {
+                    "Hour": "15",
+                    "number": "0"
+                },
+                {
+                    "Hour": "16",
+                    "number": "0"
+                },
+                {
+                    "Hour": "17",
+                    "number": "0"
+                },
+                {
+                    "Hour": "18",
+                    "number": "0"
+                },
+                {
+                    "Hour": "19",
+                    "number": "0"
+                },
+                {
+                    "Hour": "20",
+                    "number": "0"
+                },
+                {
+                    "Hour": "21",
+                    "number": "0"
+                },
+                {
+                    "Hour": "22",
+                    "number": "0"
+                },
+                {
+                    "Hour": "23",
+                    "number": "0"
+                },
+                {
+                    "Hour": "24",
+                    "number": "0"
+                },
+                {
+                    "Hour": "25",
+                    "number": "0"
+                },
+                {
+                    "Hour": "26",
+                    "number": "0"
+                }
+            ]
+        }
+    ]
+}

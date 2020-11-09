@@ -1,0 +1,4353 @@
+{
+    "Station": "新宿",
+    "Sum": [
+        {
+            "Line": "埼京線大宮・川越方面",
+            "number": "194"
+        },
+        {
+            "Line": "埼京線大崎・新木場方面",
+            "number": "85"
+        },
+        {
+            "Line": "山手線外回り大崎・池袋方面",
+            "number": "307"
+        },
+        {
+            "Line": "山手線内回り池袋・大崎方面",
+            "number": "305"
+        },
+        {
+            "Line": "湘南新宿ライン小田原・逗子方面",
+            "number": "67"
+        },
+        {
+            "Line": "湘南新宿ライン籠原・宇都宮方面",
+            "number": "67"
+        },
+        {
+            "Line": "相鉄直通線海老名方面",
+            "number": "46"
+        },
+        {
+            "Line": "相鉄直通線大宮・川越方面",
+            "number": "6"
+        },
+        {
+            "Line": "総武線東京・千葉方面",
+            "number": "537"
+        },
+        {
+            "Line": "中央線三鷹・高尾方面",
+            "number": "539"
+        },
+        {
+            "Line": "京王新線笹塚・橋本方面",
+            "number": "187"
+        },
+        {
+            "Line": "京王線高尾山口・京王八王子方面",
+            "number": "295"
+        },
+        {
+            "Line": "小田急小田原線本厚木・小田原方面",
+            "number": "327"
+        },
+        {
+            "Line": "都営新宿線大島・本八幡方面",
+            "number": "203"
+        },
+        {
+            "Line": "都営大江戸線都庁前・光が丘方面",
+            "number": "209"
+        },
+        {
+            "Line": "都営大江戸線都庁前・清澄白河方面",
+            "number": "209"
+        },
+        {
+            "Line": "あずさ松本・南小谷方面",
+            "number": "18"
+        },
+        {
+            "Line": "あずさ東京・千葉方面",
+            "number": "4"
+        },
+        {
+            "Line": "えのしま片瀬江ノ島方面",
+            "number": "1"
+        },
+        {
+            "Line": "おうめ青梅方面",
+            "number": "2"
+        },
+        {
+            "Line": "おうめ東京方面",
+            "number": "1"
+        },
+        {
+            "Line": "かいじ甲府・竜王方面",
+            "number": "12"
+        },
+        {
+            "Line": "かいじ東京方面",
+            "number": "1"
+        },
+        {
+            "Line": "きぬがわ鬼怒川温泉方面",
+            "number": "1"
+        },
+        {
+            "Line": "さがみ本厚木・小田原方面",
+            "number": "3"
+        },
+        {
+            "Line": "はこね箱根湯本方面",
+            "number": "20"
+        },
+        {
+            "Line": "はちおうじ東京方面",
+            "number": "2"
+        },
+        {
+            "Line": "はちおうじ八王子方面",
+            "number": "5"
+        },
+        {
+            "Line": "ふじさん御殿場方面",
+            "number": "3"
+        },
+        {
+            "Line": "スーパーはこね箱根湯本方面",
+            "number": "2"
+        },
+        {
+            "Line": "スペーシアきぬがわ鬼怒川温泉方面",
+            "number": "2"
+        },
+        {
+            "Line": "ホームウェイ小田原・藤沢方面",
+            "number": "18"
+        },
+        {
+            "Line": "ホームライナー小田原小田原方面",
+            "number": "2"
+        },
+        {
+            "Line": "京王ライナー京王八王子・橋本方面",
+            "number": "15"
+        },
+        {
+            "Line": "成田エクスプレス高尾方面",
+            "number": "2"
+        },
+        {
+            "Line": "成田エクスプレス成田空港方面",
+            "number": "7"
+        },
+        {
+            "Line": "成田エクスプレス池袋・大宮方面",
+            "number": "3"
+        },
+        {
+            "Line": "日光東武日光方面",
+            "number": "1"
+        },
+        {
+            "Line": "富士回遊河口湖方面",
+            "number": "3"
+        },
+        {
+            "Line": "踊り子伊豆急下田方面",
+            "number": "1"
+        },
+        {
+            "Line": "踊り子池袋方面",
+            "number": "1"
+        }
+    ],
+    "Linelist": [
+        {
+            "Line": "埼京線大宮・川越方面",
+            "Linecode": "1",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0"
+                },
+                {
+                    "Hour": "4",
+                    "number": "0"
+                },
+                {
+                    "Hour": "5",
+                    "number": "1"
+                },
+                {
+                    "Hour": "6",
+                    "number": "10"
+                },
+                {
+                    "Hour": "7",
+                    "number": "11"
+                },
+                {
+                    "Hour": "8",
+                    "number": "11"
+                },
+                {
+                    "Hour": "9",
+                    "number": "15"
+                },
+                {
+                    "Hour": "10",
+                    "number": "11"
+                },
+                {
+                    "Hour": "11",
+                    "number": "9"
+                },
+                {
+                    "Hour": "12",
+                    "number": "9"
+                },
+                {
+                    "Hour": "13",
+                    "number": "9"
+                },
+                {
+                    "Hour": "14",
+                    "number": "9"
+                },
+                {
+                    "Hour": "15",
+                    "number": "9"
+                },
+                {
+                    "Hour": "16",
+                    "number": "9"
+                },
+                {
+                    "Hour": "17",
+                    "number": "12"
+                },
+                {
+                    "Hour": "18",
+                    "number": "12"
+                },
+                {
+                    "Hour": "19",
+                    "number": "12"
+                },
+                {
+                    "Hour": "20",
+                    "number": "12"
+                },
+                {
+                    "Hour": "21",
+                    "number": "12"
+                },
+                {
+                    "Hour": "22",
+                    "number": "12"
+                },
+                {
+                    "Hour": "23",
+                    "number": "8"
+                },
+                {
+                    "Hour": "24",
+                    "number": "1"
+                },
+                {
+                    "Hour": "25",
+                    "number": "0"
+                },
+                {
+                    "Hour": "26",
+                    "number": "0"
+                }
+            ]
+        },
+        {
+            "Line": "埼京線大崎・新木場方面",
+            "Linecode": "2",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0"
+                },
+                {
+                    "Hour": "4",
+                    "number": "0"
+                },
+                {
+                    "Hour": "5",
+                    "number": "0"
+                },
+                {
+                    "Hour": "6",
+                    "number": "2"
+                },
+                {
+                    "Hour": "7",
+                    "number": "6"
+                },
+                {
+                    "Hour": "8",
+                    "number": "11"
+                },
+                {
+                    "Hour": "9",
+                    "number": "7"
+                },
+                {
+                    "Hour": "10",
+                    "number": "3"
+                },
+                {
+                    "Hour": "11",
+                    "number": "3"
+                },
+                {
+                    "Hour": "12",
+                    "number": "3"
+                },
+                {
+                    "Hour": "13",
+                    "number": "3"
+                },
+                {
+                    "Hour": "14",
+                    "number": "3"
+                },
+                {
+                    "Hour": "15",
+                    "number": "3"
+                },
+                {
+                    "Hour": "16",
+                    "number": "4"
+                },
+                {
+                    "Hour": "17",
+                    "number": "5"
+                },
+                {
+                    "Hour": "18",
+                    "number": "6"
+                },
+                {
+                    "Hour": "19",
+                    "number": "6"
+                },
+                {
+                    "Hour": "20",
+                    "number": "6"
+                },
+                {
+                    "Hour": "21",
+                    "number": "6"
+                },
+                {
+                    "Hour": "22",
+                    "number": "6"
+                },
+                {
+                    "Hour": "23",
+                    "number": "2"
+                },
+                {
+                    "Hour": "24",
+                    "number": "0"
+                },
+                {
+                    "Hour": "25",
+                    "number": "0"
+                },
+                {
+                    "Hour": "26",
+                    "number": "0"
+                }
+            ]
+        },
+        {
+            "Line": "山手線外回り大崎・池袋方面",
+            "Linecode": "3",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0"
+                },
+                {
+                    "Hour": "4",
+                    "number": "1"
+                },
+                {
+                    "Hour": "5",
+                    "number": "9"
+                },
+                {
+                    "Hour": "6",
+                    "number": "13"
+                },
+                {
+                    "Hour": "7",
+                    "number": "20"
+                },
+                {
+                    "Hour": "8",
+                    "number": "21"
+                },
+                {
+                    "Hour": "9",
+                    "number": "18"
+                },
+                {
+                    "Hour": "10",
+                    "number": "13"
+                },
+                {
+                    "Hour": "11",
+                    "number": "14"
+                },
+                {
+                    "Hour": "12",
+                    "number": "14"
+                },
+                {
+                    "Hour": "13",
+                    "number": "14"
+                },
+                {
+                    "Hour": "14",
+                    "number": "14"
+                },
+                {
+                    "Hour": "15",
+                    "number": "14"
+                },
+                {
+                    "Hour": "16",
+                    "number": "16"
+                },
+                {
+                    "Hour": "17",
+                    "number": "18"
+                },
+                {
+                    "Hour": "18",
+                    "number": "18"
+                },
+                {
+                    "Hour": "19",
+                    "number": "18"
+                },
+                {
+                    "Hour": "20",
+                    "number": "18"
+                },
+                {
+                    "Hour": "21",
+                    "number": "17"
+                },
+                {
+                    "Hour": "22",
+                    "number": "15"
+                },
+                {
+                    "Hour": "23",
+                    "number": "14"
+                },
+                {
+                    "Hour": "24",
+                    "number": "7"
+                },
+                {
+                    "Hour": "25",
+                    "number": "1"
+                },
+                {
+                    "Hour": "26",
+                    "number": "0"
+                }
+            ]
+        },
+        {
+            "Line": "山手線内回り池袋・大崎方面",
+            "Linecode": "4",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0"
+                },
+                {
+                    "Hour": "4",
+                    "number": "1"
+                },
+                {
+                    "Hour": "5",
+                    "number": "5"
+                },
+                {
+                    "Hour": "6",
+                    "number": "11"
+                },
+                {
+                    "Hour": "7",
+                    "number": "21"
+                },
+                {
+                    "Hour": "8",
+                    "number": "22"
+                },
+                {
+                    "Hour": "9",
+                    "number": "22"
+                },
+                {
+                    "Hour": "10",
+                    "number": "18"
+                },
+                {
+                    "Hour": "11",
+                    "number": "13"
+                },
+                {
+                    "Hour": "12",
+                    "number": "14"
+                },
+                {
+                    "Hour": "13",
+                    "number": "14"
+                },
+                {
+                    "Hour": "14",
+                    "number": "14"
+                },
+                {
+                    "Hour": "15",
+                    "number": "14"
+                },
+                {
+                    "Hour": "16",
+                    "number": "17"
+                },
+                {
+                    "Hour": "17",
+                    "number": "18"
+                },
+                {
+                    "Hour": "18",
+                    "number": "18"
+                },
+                {
+                    "Hour": "19",
+                    "number": "18"
+                },
+                {
+                    "Hour": "20",
+                    "number": "17"
+                },
+                {
+                    "Hour": "21",
+                    "number": "15"
+                },
+                {
+                    "Hour": "22",
+                    "number": "14"
+                },
+                {
+                    "Hour": "23",
+                    "number": "11"
+                },
+                {
+                    "Hour": "24",
+                    "number": "7"
+                },
+                {
+                    "Hour": "25",
+                    "number": "1"
+                },
+                {
+                    "Hour": "26",
+                    "number": "0"
+                }
+            ]
+        },
+        {
+            "Line": "湘南新宿ライン小田原・逗子方面",
+            "Linecode": "5",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0"
+                },
+                {
+                    "Hour": "4",
+                    "number": "0"
+                },
+                {
+                    "Hour": "5",
+                    "number": "0"
+                },
+                {
+                    "Hour": "6",
+                    "number": "1"
+                },
+                {
+                    "Hour": "7",
+                    "number": "4"
+                },
+                {
+                    "Hour": "8",
+                    "number": "7"
+                },
+                {
+                    "Hour": "9",
+                    "number": "5"
+                },
+                {
+                    "Hour": "10",
+                    "number": "4"
+                },
+                {
+                    "Hour": "11",
+                    "number": "3"
+                },
+                {
+                    "Hour": "12",
+                    "number": "4"
+                },
+                {
+                    "Hour": "13",
+                    "number": "4"
+                },
+                {
+                    "Hour": "14",
+                    "number": "4"
+                },
+                {
+                    "Hour": "15",
+                    "number": "4"
+                },
+                {
+                    "Hour": "16",
+                    "number": "4"
+                },
+                {
+                    "Hour": "17",
+                    "number": "4"
+                },
+                {
+                    "Hour": "18",
+                    "number": "4"
+                },
+                {
+                    "Hour": "19",
+                    "number": "4"
+                },
+                {
+                    "Hour": "20",
+                    "number": "4"
+                },
+                {
+                    "Hour": "21",
+                    "number": "4"
+                },
+                {
+                    "Hour": "22",
+                    "number": "3"
+                },
+                {
+                    "Hour": "23",
+                    "number": "0"
+                },
+                {
+                    "Hour": "24",
+                    "number": "0"
+                },
+                {
+                    "Hour": "25",
+                    "number": "0"
+                },
+                {
+                    "Hour": "26",
+                    "number": "0"
+                }
+            ]
+        },
+        {
+            "Line": "湘南新宿ライン籠原・宇都宮方面",
+            "Linecode": "6",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0"
+                },
+                {
+                    "Hour": "4",
+                    "number": "0"
+                },
+                {
+                    "Hour": "5",
+                    "number": "0"
+                },
+                {
+                    "Hour": "6",
+                    "number": "1"
+                },
+                {
+                    "Hour": "7",
+                    "number": "3"
+                },
+                {
+                    "Hour": "8",
+                    "number": "6"
+                },
+                {
+                    "Hour": "9",
+                    "number": "4"
+                },
+                {
+                    "Hour": "10",
+                    "number": "4"
+                },
+                {
+                    "Hour": "11",
+                    "number": "4"
+                },
+                {
+                    "Hour": "12",
+                    "number": "4"
+                },
+                {
+                    "Hour": "13",
+                    "number": "4"
+                },
+                {
+                    "Hour": "14",
+                    "number": "4"
+                },
+                {
+                    "Hour": "15",
+                    "number": "4"
+                },
+                {
+                    "Hour": "16",
+                    "number": "4"
+                },
+                {
+                    "Hour": "17",
+                    "number": "4"
+                },
+                {
+                    "Hour": "18",
+                    "number": "4"
+                },
+                {
+                    "Hour": "19",
+                    "number": "5"
+                },
+                {
+                    "Hour": "20",
+                    "number": "4"
+                },
+                {
+                    "Hour": "21",
+                    "number": "4"
+                },
+                {
+                    "Hour": "22",
+                    "number": "2"
+                },
+                {
+                    "Hour": "23",
+                    "number": "2"
+                },
+                {
+                    "Hour": "24",
+                    "number": "0"
+                },
+                {
+                    "Hour": "25",
+                    "number": "0"
+                },
+                {
+                    "Hour": "26",
+                    "number": "0"
+                }
+            ]
+        },
+        {
+            "Line": "相鉄直通線海老名方面",
+            "Linecode": "7",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0"
+                },
+                {
+                    "Hour": "4",
+                    "number": "0"
+                },
+                {
+                    "Hour": "5",
+                    "number": "0"
+                },
+                {
+                    "Hour": "6",
+                    "number": "1"
+                },
+                {
+                    "Hour": "7",
+                    "number": "3"
+                },
+                {
+                    "Hour": "8",
+                    "number": "4"
+                },
+                {
+                    "Hour": "9",
+                    "number": "3"
+                },
+                {
+                    "Hour": "10",
+                    "number": "3"
+                },
+                {
+                    "Hour": "11",
+                    "number": "2"
+                },
+                {
+                    "Hour": "12",
+                    "number": "2"
+                },
+                {
+                    "Hour": "13",
+                    "number": "2"
+                },
+                {
+                    "Hour": "14",
+                    "number": "2"
+                },
+                {
+                    "Hour": "15",
+                    "number": "2"
+                },
+                {
+                    "Hour": "16",
+                    "number": "3"
+                },
+                {
+                    "Hour": "17",
+                    "number": "3"
+                },
+                {
+                    "Hour": "18",
+                    "number": "3"
+                },
+                {
+                    "Hour": "19",
+                    "number": "3"
+                },
+                {
+                    "Hour": "20",
+                    "number": "3"
+                },
+                {
+                    "Hour": "21",
+                    "number": "3"
+                },
+                {
+                    "Hour": "22",
+                    "number": "3"
+                },
+                {
+                    "Hour": "23",
+                    "number": "1"
+                },
+                {
+                    "Hour": "24",
+                    "number": "0"
+                },
+                {
+                    "Hour": "25",
+                    "number": "0"
+                },
+                {
+                    "Hour": "26",
+                    "number": "0"
+                }
+            ]
+        },
+        {
+            "Line": "相鉄直通線大宮・川越方面",
+            "Linecode": "8",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0"
+                },
+                {
+                    "Hour": "4",
+                    "number": "0"
+                },
+                {
+                    "Hour": "5",
+                    "number": "0"
+                },
+                {
+                    "Hour": "6",
+                    "number": "0"
+                },
+                {
+                    "Hour": "7",
+                    "number": "2"
+                },
+                {
+                    "Hour": "8",
+                    "number": "4"
+                },
+                {
+                    "Hour": "9",
+                    "number": "0"
+                },
+                {
+                    "Hour": "10",
+                    "number": "0"
+                },
+                {
+                    "Hour": "11",
+                    "number": "0"
+                },
+                {
+                    "Hour": "12",
+                    "number": "0"
+                },
+                {
+                    "Hour": "13",
+                    "number": "0"
+                },
+                {
+                    "Hour": "14",
+                    "number": "0"
+                },
+                {
+                    "Hour": "15",
+                    "number": "0"
+                },
+                {
+                    "Hour": "16",
+                    "number": "0"
+                },
+                {
+                    "Hour": "17",
+                    "number": "0"
+                },
+                {
+                    "Hour": "18",
+                    "number": "0"
+                },
+                {
+                    "Hour": "19",
+                    "number": "0"
+                },
+                {
+                    "Hour": "20",
+                    "number": "0"
+                },
+                {
+                    "Hour": "21",
+                    "number": "0"
+                },
+                {
+                    "Hour": "22",
+                    "number": "0"
+                },
+                {
+                    "Hour": "23",
+                    "number": "0"
+                },
+                {
+                    "Hour": "24",
+                    "number": "0"
+                },
+                {
+                    "Hour": "25",
+                    "number": "0"
+                },
+                {
+                    "Hour": "26",
+                    "number": "0"
+                }
+            ]
+        },
+        {
+            "Line": "総武線東京・千葉方面",
+            "Linecode": "9",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0"
+                },
+                {
+                    "Hour": "4",
+                    "number": "2"
+                },
+                {
+                    "Hour": "5",
+                    "number": "12"
+                },
+                {
+                    "Hour": "6",
+                    "number": "19"
+                },
+                {
+                    "Hour": "7",
+                    "number": "34"
+                },
+                {
+                    "Hour": "8",
+                    "number": "51"
+                },
+                {
+                    "Hour": "9",
+                    "number": "34"
+                },
+                {
+                    "Hour": "10",
+                    "number": "25"
+                },
+                {
+                    "Hour": "11",
+                    "number": "25"
+                },
+                {
+                    "Hour": "12",
+                    "number": "25"
+                },
+                {
+                    "Hour": "13",
+                    "number": "26"
+                },
+                {
+                    "Hour": "14",
+                    "number": "23"
+                },
+                {
+                    "Hour": "15",
+                    "number": "25"
+                },
+                {
+                    "Hour": "16",
+                    "number": "29"
+                },
+                {
+                    "Hour": "17",
+                    "number": "38"
+                },
+                {
+                    "Hour": "18",
+                    "number": "34"
+                },
+                {
+                    "Hour": "19",
+                    "number": "30"
+                },
+                {
+                    "Hour": "20",
+                    "number": "29"
+                },
+                {
+                    "Hour": "21",
+                    "number": "26"
+                },
+                {
+                    "Hour": "22",
+                    "number": "20"
+                },
+                {
+                    "Hour": "23",
+                    "number": "22"
+                },
+                {
+                    "Hour": "24",
+                    "number": "8"
+                },
+                {
+                    "Hour": "25",
+                    "number": "0"
+                },
+                {
+                    "Hour": "26",
+                    "number": "0"
+                }
+            ]
+        },
+        {
+            "Line": "中央線三鷹・高尾方面",
+            "Linecode": "10",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0"
+                },
+                {
+                    "Hour": "4",
+                    "number": "1"
+                },
+                {
+                    "Hour": "5",
+                    "number": "8"
+                },
+                {
+                    "Hour": "6",
+                    "number": "14"
+                },
+                {
+                    "Hour": "7",
+                    "number": "28"
+                },
+                {
+                    "Hour": "8",
+                    "number": "51"
+                },
+                {
+                    "Hour": "9",
+                    "number": "40"
+                },
+                {
+                    "Hour": "10",
+                    "number": "28"
+                },
+                {
+                    "Hour": "11",
+                    "number": "25"
+                },
+                {
+                    "Hour": "12",
+                    "number": "25"
+                },
+                {
+                    "Hour": "13",
+                    "number": "25"
+                },
+                {
+                    "Hour": "14",
+                    "number": "25"
+                },
+                {
+                    "Hour": "15",
+                    "number": "25"
+                },
+                {
+                    "Hour": "16",
+                    "number": "26"
+                },
+                {
+                    "Hour": "17",
+                    "number": "33"
+                },
+                {
+                    "Hour": "18",
+                    "number": "35"
+                },
+                {
+                    "Hour": "19",
+                    "number": "32"
+                },
+                {
+                    "Hour": "20",
+                    "number": "31"
+                },
+                {
+                    "Hour": "21",
+                    "number": "28"
+                },
+                {
+                    "Hour": "22",
+                    "number": "22"
+                },
+                {
+                    "Hour": "23",
+                    "number": "20"
+                },
+                {
+                    "Hour": "24",
+                    "number": "16"
+                },
+                {
+                    "Hour": "25",
+                    "number": "1"
+                },
+                {
+                    "Hour": "26",
+                    "number": "0"
+                }
+            ]
+        },
+        {
+            "Line": "京王新線笹塚・橋本方面",
+            "Linecode": "11",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0"
+                },
+                {
+                    "Hour": "4",
+                    "number": "1"
+                },
+                {
+                    "Hour": "5",
+                    "number": "4"
+                },
+                {
+                    "Hour": "6",
+                    "number": "6"
+                },
+                {
+                    "Hour": "7",
+                    "number": "10"
+                },
+                {
+                    "Hour": "8",
+                    "number": "17"
+                },
+                {
+                    "Hour": "9",
+                    "number": "14"
+                },
+                {
+                    "Hour": "10",
+                    "number": "10"
+                },
+                {
+                    "Hour": "11",
+                    "number": "9"
+                },
+                {
+                    "Hour": "12",
+                    "number": "9"
+                },
+                {
+                    "Hour": "13",
+                    "number": "9"
+                },
+                {
+                    "Hour": "14",
+                    "number": "9"
+                },
+                {
+                    "Hour": "15",
+                    "number": "9"
+                },
+                {
+                    "Hour": "16",
+                    "number": "13"
+                },
+                {
+                    "Hour": "17",
+                    "number": "13"
+                },
+                {
+                    "Hour": "18",
+                    "number": "11"
+                },
+                {
+                    "Hour": "19",
+                    "number": "8"
+                },
+                {
+                    "Hour": "20",
+                    "number": "9"
+                },
+                {
+                    "Hour": "21",
+                    "number": "10"
+                },
+                {
+                    "Hour": "22",
+                    "number": "6"
+                },
+                {
+                    "Hour": "23",
+                    "number": "5"
+                },
+                {
+                    "Hour": "24",
+                    "number": "5"
+                },
+                {
+                    "Hour": "25",
+                    "number": "0"
+                },
+                {
+                    "Hour": "26",
+                    "number": "0"
+                }
+            ]
+        },
+        {
+            "Line": "京王線高尾山口・京王八王子方面",
+            "Linecode": "12",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0"
+                },
+                {
+                    "Hour": "4",
+                    "number": "0"
+                },
+                {
+                    "Hour": "5",
+                    "number": "4"
+                },
+                {
+                    "Hour": "6",
+                    "number": "16"
+                },
+                {
+                    "Hour": "7",
+                    "number": "20"
+                },
+                {
+                    "Hour": "8",
+                    "number": "21"
+                },
+                {
+                    "Hour": "9",
+                    "number": "21"
+                },
+                {
+                    "Hour": "10",
+                    "number": "15"
+                },
+                {
+                    "Hour": "11",
+                    "number": "15"
+                },
+                {
+                    "Hour": "12",
+                    "number": "15"
+                },
+                {
+                    "Hour": "13",
+                    "number": "15"
+                },
+                {
+                    "Hour": "14",
+                    "number": "15"
+                },
+                {
+                    "Hour": "15",
+                    "number": "15"
+                },
+                {
+                    "Hour": "16",
+                    "number": "15"
+                },
+                {
+                    "Hour": "17",
+                    "number": "15"
+                },
+                {
+                    "Hour": "18",
+                    "number": "15"
+                },
+                {
+                    "Hour": "19",
+                    "number": "15"
+                },
+                {
+                    "Hour": "20",
+                    "number": "15"
+                },
+                {
+                    "Hour": "21",
+                    "number": "15"
+                },
+                {
+                    "Hour": "22",
+                    "number": "14"
+                },
+                {
+                    "Hour": "23",
+                    "number": "11"
+                },
+                {
+                    "Hour": "24",
+                    "number": "8"
+                },
+                {
+                    "Hour": "25",
+                    "number": "0"
+                },
+                {
+                    "Hour": "26",
+                    "number": "0"
+                }
+            ]
+        },
+        {
+            "Line": "小田急小田原線本厚木・小田原方面",
+            "Linecode": "13",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0"
+                },
+                {
+                    "Hour": "4",
+                    "number": "0"
+                },
+                {
+                    "Hour": "5",
+                    "number": "7"
+                },
+                {
+                    "Hour": "6",
+                    "number": "11"
+                },
+                {
+                    "Hour": "7",
+                    "number": "16"
+                },
+                {
+                    "Hour": "8",
+                    "number": "17"
+                },
+                {
+                    "Hour": "9",
+                    "number": "18"
+                },
+                {
+                    "Hour": "10",
+                    "number": "18"
+                },
+                {
+                    "Hour": "11",
+                    "number": "18"
+                },
+                {
+                    "Hour": "12",
+                    "number": "18"
+                },
+                {
+                    "Hour": "13",
+                    "number": "18"
+                },
+                {
+                    "Hour": "14",
+                    "number": "18"
+                },
+                {
+                    "Hour": "15",
+                    "number": "18"
+                },
+                {
+                    "Hour": "16",
+                    "number": "18"
+                },
+                {
+                    "Hour": "17",
+                    "number": "18"
+                },
+                {
+                    "Hour": "18",
+                    "number": "20"
+                },
+                {
+                    "Hour": "19",
+                    "number": "20"
+                },
+                {
+                    "Hour": "20",
+                    "number": "20"
+                },
+                {
+                    "Hour": "21",
+                    "number": "16"
+                },
+                {
+                    "Hour": "22",
+                    "number": "16"
+                },
+                {
+                    "Hour": "23",
+                    "number": "15"
+                },
+                {
+                    "Hour": "24",
+                    "number": "7"
+                },
+                {
+                    "Hour": "25",
+                    "number": "0"
+                },
+                {
+                    "Hour": "26",
+                    "number": "0"
+                }
+            ]
+        },
+        {
+            "Line": "都営新宿線大島・本八幡方面",
+            "Linecode": "14",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0"
+                },
+                {
+                    "Hour": "4",
+                    "number": "0"
+                },
+                {
+                    "Hour": "5",
+                    "number": "4"
+                },
+                {
+                    "Hour": "6",
+                    "number": "6"
+                },
+                {
+                    "Hour": "7",
+                    "number": "11"
+                },
+                {
+                    "Hour": "8",
+                    "number": "16"
+                },
+                {
+                    "Hour": "9",
+                    "number": "13"
+                },
+                {
+                    "Hour": "10",
+                    "number": "12"
+                },
+                {
+                    "Hour": "11",
+                    "number": "12"
+                },
+                {
+                    "Hour": "12",
+                    "number": "12"
+                },
+                {
+                    "Hour": "13",
+                    "number": "12"
+                },
+                {
+                    "Hour": "14",
+                    "number": "12"
+                },
+                {
+                    "Hour": "15",
+                    "number": "12"
+                },
+                {
+                    "Hour": "16",
+                    "number": "13"
+                },
+                {
+                    "Hour": "17",
+                    "number": "12"
+                },
+                {
+                    "Hour": "18",
+                    "number": "11"
+                },
+                {
+                    "Hour": "19",
+                    "number": "11"
+                },
+                {
+                    "Hour": "20",
+                    "number": "9"
+                },
+                {
+                    "Hour": "21",
+                    "number": "9"
+                },
+                {
+                    "Hour": "22",
+                    "number": "8"
+                },
+                {
+                    "Hour": "23",
+                    "number": "6"
+                },
+                {
+                    "Hour": "24",
+                    "number": "2"
+                },
+                {
+                    "Hour": "25",
+                    "number": "0"
+                },
+                {
+                    "Hour": "26",
+                    "number": "0"
+                }
+            ]
+        },
+        {
+            "Line": "都営大江戸線都庁前・光が丘方面",
+            "Linecode": "15",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0"
+                },
+                {
+                    "Hour": "4",
+                    "number": "0"
+                },
+                {
+                    "Hour": "5",
+                    "number": "4"
+                },
+                {
+                    "Hour": "6",
+                    "number": "8"
+                },
+                {
+                    "Hour": "7",
+                    "number": "16"
+                },
+                {
+                    "Hour": "8",
+                    "number": "16"
+                },
+                {
+                    "Hour": "9",
+                    "number": "15"
+                },
+                {
+                    "Hour": "10",
+                    "number": "12"
+                },
+                {
+                    "Hour": "11",
+                    "number": "10"
+                },
+                {
+                    "Hour": "12",
+                    "number": "10"
+                },
+                {
+                    "Hour": "13",
+                    "number": "10"
+                },
+                {
+                    "Hour": "14",
+                    "number": "10"
+                },
+                {
+                    "Hour": "15",
+                    "number": "10"
+                },
+                {
+                    "Hour": "16",
+                    "number": "10"
+                },
+                {
+                    "Hour": "17",
+                    "number": "10"
+                },
+                {
+                    "Hour": "18",
+                    "number": "13"
+                },
+                {
+                    "Hour": "19",
+                    "number": "12"
+                },
+                {
+                    "Hour": "20",
+                    "number": "10"
+                },
+                {
+                    "Hour": "21",
+                    "number": "9"
+                },
+                {
+                    "Hour": "22",
+                    "number": "8"
+                },
+                {
+                    "Hour": "23",
+                    "number": "9"
+                },
+                {
+                    "Hour": "24",
+                    "number": "7"
+                },
+                {
+                    "Hour": "25",
+                    "number": "0"
+                },
+                {
+                    "Hour": "26",
+                    "number": "0"
+                }
+            ]
+        },
+        {
+            "Line": "都営大江戸線都庁前・清澄白河方面",
+            "Linecode": "16",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0"
+                },
+                {
+                    "Hour": "4",
+                    "number": "0"
+                },
+                {
+                    "Hour": "5",
+                    "number": "4"
+                },
+                {
+                    "Hour": "6",
+                    "number": "9"
+                },
+                {
+                    "Hour": "7",
+                    "number": "12"
+                },
+                {
+                    "Hour": "8",
+                    "number": "20"
+                },
+                {
+                    "Hour": "9",
+                    "number": "15"
+                },
+                {
+                    "Hour": "10",
+                    "number": "11"
+                },
+                {
+                    "Hour": "11",
+                    "number": "10"
+                },
+                {
+                    "Hour": "12",
+                    "number": "10"
+                },
+                {
+                    "Hour": "13",
+                    "number": "10"
+                },
+                {
+                    "Hour": "14",
+                    "number": "10"
+                },
+                {
+                    "Hour": "15",
+                    "number": "11"
+                },
+                {
+                    "Hour": "16",
+                    "number": "11"
+                },
+                {
+                    "Hour": "17",
+                    "number": "12"
+                },
+                {
+                    "Hour": "18",
+                    "number": "11"
+                },
+                {
+                    "Hour": "19",
+                    "number": "12"
+                },
+                {
+                    "Hour": "20",
+                    "number": "12"
+                },
+                {
+                    "Hour": "21",
+                    "number": "11"
+                },
+                {
+                    "Hour": "22",
+                    "number": "7"
+                },
+                {
+                    "Hour": "23",
+                    "number": "7"
+                },
+                {
+                    "Hour": "24",
+                    "number": "4"
+                },
+                {
+                    "Hour": "25",
+                    "number": "0"
+                },
+                {
+                    "Hour": "26",
+                    "number": "0"
+                }
+            ]
+        },
+        {
+            "Line": "あずさ松本・南小谷方面",
+            "Linecode": "17",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0"
+                },
+                {
+                    "Hour": "4",
+                    "number": "0"
+                },
+                {
+                    "Hour": "5",
+                    "number": "0"
+                },
+                {
+                    "Hour": "6",
+                    "number": "0"
+                },
+                {
+                    "Hour": "7",
+                    "number": "2"
+                },
+                {
+                    "Hour": "8",
+                    "number": "1"
+                },
+                {
+                    "Hour": "9",
+                    "number": "1"
+                },
+                {
+                    "Hour": "10",
+                    "number": "1"
+                },
+                {
+                    "Hour": "11",
+                    "number": "2"
+                },
+                {
+                    "Hour": "12",
+                    "number": "1"
+                },
+                {
+                    "Hour": "13",
+                    "number": "1"
+                },
+                {
+                    "Hour": "14",
+                    "number": "1"
+                },
+                {
+                    "Hour": "15",
+                    "number": "1"
+                },
+                {
+                    "Hour": "16",
+                    "number": "1"
+                },
+                {
+                    "Hour": "17",
+                    "number": "2"
+                },
+                {
+                    "Hour": "18",
+                    "number": "1"
+                },
+                {
+                    "Hour": "19",
+                    "number": "1"
+                },
+                {
+                    "Hour": "20",
+                    "number": "1"
+                },
+                {
+                    "Hour": "21",
+                    "number": "1"
+                },
+                {
+                    "Hour": "22",
+                    "number": "0"
+                },
+                {
+                    "Hour": "23",
+                    "number": "0"
+                },
+                {
+                    "Hour": "24",
+                    "number": "0"
+                },
+                {
+                    "Hour": "25",
+                    "number": "0"
+                },
+                {
+                    "Hour": "26",
+                    "number": "0"
+                }
+            ]
+        },
+        {
+            "Line": "あずさ東京・千葉方面",
+            "Linecode": "18",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0"
+                },
+                {
+                    "Hour": "4",
+                    "number": "0"
+                },
+                {
+                    "Hour": "5",
+                    "number": "0"
+                },
+                {
+                    "Hour": "6",
+                    "number": "0"
+                },
+                {
+                    "Hour": "7",
+                    "number": "0"
+                },
+                {
+                    "Hour": "8",
+                    "number": "0"
+                },
+                {
+                    "Hour": "9",
+                    "number": "1"
+                },
+                {
+                    "Hour": "10",
+                    "number": "1"
+                },
+                {
+                    "Hour": "11",
+                    "number": "1"
+                },
+                {
+                    "Hour": "12",
+                    "number": "0"
+                },
+                {
+                    "Hour": "13",
+                    "number": "0"
+                },
+                {
+                    "Hour": "14",
+                    "number": "0"
+                },
+                {
+                    "Hour": "15",
+                    "number": "0"
+                },
+                {
+                    "Hour": "16",
+                    "number": "0"
+                },
+                {
+                    "Hour": "17",
+                    "number": "0"
+                },
+                {
+                    "Hour": "18",
+                    "number": "0"
+                },
+                {
+                    "Hour": "19",
+                    "number": "0"
+                },
+                {
+                    "Hour": "20",
+                    "number": "1"
+                },
+                {
+                    "Hour": "21",
+                    "number": "0"
+                },
+                {
+                    "Hour": "22",
+                    "number": "0"
+                },
+                {
+                    "Hour": "23",
+                    "number": "0"
+                },
+                {
+                    "Hour": "24",
+                    "number": "0"
+                },
+                {
+                    "Hour": "25",
+                    "number": "0"
+                },
+                {
+                    "Hour": "26",
+                    "number": "0"
+                }
+            ]
+        },
+        {
+            "Line": "えのしま片瀬江ノ島方面",
+            "Linecode": "19",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0"
+                },
+                {
+                    "Hour": "4",
+                    "number": "0"
+                },
+                {
+                    "Hour": "5",
+                    "number": "0"
+                },
+                {
+                    "Hour": "6",
+                    "number": "0"
+                },
+                {
+                    "Hour": "7",
+                    "number": "0"
+                },
+                {
+                    "Hour": "8",
+                    "number": "0"
+                },
+                {
+                    "Hour": "9",
+                    "number": "1"
+                },
+                {
+                    "Hour": "10",
+                    "number": "0"
+                },
+                {
+                    "Hour": "11",
+                    "number": "0"
+                },
+                {
+                    "Hour": "12",
+                    "number": "0"
+                },
+                {
+                    "Hour": "13",
+                    "number": "0"
+                },
+                {
+                    "Hour": "14",
+                    "number": "0"
+                },
+                {
+                    "Hour": "15",
+                    "number": "0"
+                },
+                {
+                    "Hour": "16",
+                    "number": "0"
+                },
+                {
+                    "Hour": "17",
+                    "number": "0"
+                },
+                {
+                    "Hour": "18",
+                    "number": "0"
+                },
+                {
+                    "Hour": "19",
+                    "number": "0"
+                },
+                {
+                    "Hour": "20",
+                    "number": "0"
+                },
+                {
+                    "Hour": "21",
+                    "number": "0"
+                },
+                {
+                    "Hour": "22",
+                    "number": "0"
+                },
+                {
+                    "Hour": "23",
+                    "number": "0"
+                },
+                {
+                    "Hour": "24",
+                    "number": "0"
+                },
+                {
+                    "Hour": "25",
+                    "number": "0"
+                },
+                {
+                    "Hour": "26",
+                    "number": "0"
+                }
+            ]
+        },
+        {
+            "Line": "おうめ青梅方面",
+            "Linecode": "20",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0"
+                },
+                {
+                    "Hour": "4",
+                    "number": "0"
+                },
+                {
+                    "Hour": "5",
+                    "number": "0"
+                },
+                {
+                    "Hour": "6",
+                    "number": "0"
+                },
+                {
+                    "Hour": "7",
+                    "number": "0"
+                },
+                {
+                    "Hour": "8",
+                    "number": "0"
+                },
+                {
+                    "Hour": "9",
+                    "number": "0"
+                },
+                {
+                    "Hour": "10",
+                    "number": "0"
+                },
+                {
+                    "Hour": "11",
+                    "number": "0"
+                },
+                {
+                    "Hour": "12",
+                    "number": "0"
+                },
+                {
+                    "Hour": "13",
+                    "number": "0"
+                },
+                {
+                    "Hour": "14",
+                    "number": "0"
+                },
+                {
+                    "Hour": "15",
+                    "number": "0"
+                },
+                {
+                    "Hour": "16",
+                    "number": "0"
+                },
+                {
+                    "Hour": "17",
+                    "number": "0"
+                },
+                {
+                    "Hour": "18",
+                    "number": "1"
+                },
+                {
+                    "Hour": "19",
+                    "number": "0"
+                },
+                {
+                    "Hour": "20",
+                    "number": "0"
+                },
+                {
+                    "Hour": "21",
+                    "number": "0"
+                },
+                {
+                    "Hour": "22",
+                    "number": "1"
+                },
+                {
+                    "Hour": "23",
+                    "number": "0"
+                },
+                {
+                    "Hour": "24",
+                    "number": "0"
+                },
+                {
+                    "Hour": "25",
+                    "number": "0"
+                },
+                {
+                    "Hour": "26",
+                    "number": "0"
+                }
+            ]
+        },
+        {
+            "Line": "おうめ東京方面",
+            "Linecode": "21",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0"
+                },
+                {
+                    "Hour": "4",
+                    "number": "0"
+                },
+                {
+                    "Hour": "5",
+                    "number": "0"
+                },
+                {
+                    "Hour": "6",
+                    "number": "0"
+                },
+                {
+                    "Hour": "7",
+                    "number": "1"
+                },
+                {
+                    "Hour": "8",
+                    "number": "0"
+                },
+                {
+                    "Hour": "9",
+                    "number": "0"
+                },
+                {
+                    "Hour": "10",
+                    "number": "0"
+                },
+                {
+                    "Hour": "11",
+                    "number": "0"
+                },
+                {
+                    "Hour": "12",
+                    "number": "0"
+                },
+                {
+                    "Hour": "13",
+                    "number": "0"
+                },
+                {
+                    "Hour": "14",
+                    "number": "0"
+                },
+                {
+                    "Hour": "15",
+                    "number": "0"
+                },
+                {
+                    "Hour": "16",
+                    "number": "0"
+                },
+                {
+                    "Hour": "17",
+                    "number": "0"
+                },
+                {
+                    "Hour": "18",
+                    "number": "0"
+                },
+                {
+                    "Hour": "19",
+                    "number": "0"
+                },
+                {
+                    "Hour": "20",
+                    "number": "0"
+                },
+                {
+                    "Hour": "21",
+                    "number": "0"
+                },
+                {
+                    "Hour": "22",
+                    "number": "0"
+                },
+                {
+                    "Hour": "23",
+                    "number": "0"
+                },
+                {
+                    "Hour": "24",
+                    "number": "0"
+                },
+                {
+                    "Hour": "25",
+                    "number": "0"
+                },
+                {
+                    "Hour": "26",
+                    "number": "0"
+                }
+            ]
+        },
+        {
+            "Line": "かいじ甲府・竜王方面",
+            "Linecode": "22",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0"
+                },
+                {
+                    "Hour": "4",
+                    "number": "0"
+                },
+                {
+                    "Hour": "5",
+                    "number": "0"
+                },
+                {
+                    "Hour": "6",
+                    "number": "0"
+                },
+                {
+                    "Hour": "7",
+                    "number": "0"
+                },
+                {
+                    "Hour": "8",
+                    "number": "1"
+                },
+                {
+                    "Hour": "9",
+                    "number": "1"
+                },
+                {
+                    "Hour": "10",
+                    "number": "1"
+                },
+                {
+                    "Hour": "11",
+                    "number": "0"
+                },
+                {
+                    "Hour": "12",
+                    "number": "1"
+                },
+                {
+                    "Hour": "13",
+                    "number": "1"
+                },
+                {
+                    "Hour": "14",
+                    "number": "1"
+                },
+                {
+                    "Hour": "15",
+                    "number": "1"
+                },
+                {
+                    "Hour": "16",
+                    "number": "1"
+                },
+                {
+                    "Hour": "17",
+                    "number": "0"
+                },
+                {
+                    "Hour": "18",
+                    "number": "1"
+                },
+                {
+                    "Hour": "19",
+                    "number": "1"
+                },
+                {
+                    "Hour": "20",
+                    "number": "0"
+                },
+                {
+                    "Hour": "21",
+                    "number": "0"
+                },
+                {
+                    "Hour": "22",
+                    "number": "1"
+                },
+                {
+                    "Hour": "23",
+                    "number": "1"
+                },
+                {
+                    "Hour": "24",
+                    "number": "0"
+                },
+                {
+                    "Hour": "25",
+                    "number": "0"
+                },
+                {
+                    "Hour": "26",
+                    "number": "0"
+                }
+            ]
+        },
+        {
+            "Line": "かいじ東京方面",
+            "Linecode": "23",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0"
+                },
+                {
+                    "Hour": "4",
+                    "number": "0"
+                },
+                {
+                    "Hour": "5",
+                    "number": "0"
+                },
+                {
+                    "Hour": "6",
+                    "number": "0"
+                },
+                {
+                    "Hour": "7",
+                    "number": "0"
+                },
+                {
+                    "Hour": "8",
+                    "number": "0"
+                },
+                {
+                    "Hour": "9",
+                    "number": "1"
+                },
+                {
+                    "Hour": "10",
+                    "number": "0"
+                },
+                {
+                    "Hour": "11",
+                    "number": "0"
+                },
+                {
+                    "Hour": "12",
+                    "number": "0"
+                },
+                {
+                    "Hour": "13",
+                    "number": "0"
+                },
+                {
+                    "Hour": "14",
+                    "number": "0"
+                },
+                {
+                    "Hour": "15",
+                    "number": "0"
+                },
+                {
+                    "Hour": "16",
+                    "number": "0"
+                },
+                {
+                    "Hour": "17",
+                    "number": "0"
+                },
+                {
+                    "Hour": "18",
+                    "number": "0"
+                },
+                {
+                    "Hour": "19",
+                    "number": "0"
+                },
+                {
+                    "Hour": "20",
+                    "number": "0"
+                },
+                {
+                    "Hour": "21",
+                    "number": "0"
+                },
+                {
+                    "Hour": "22",
+                    "number": "0"
+                },
+                {
+                    "Hour": "23",
+                    "number": "0"
+                },
+                {
+                    "Hour": "24",
+                    "number": "0"
+                },
+                {
+                    "Hour": "25",
+                    "number": "0"
+                },
+                {
+                    "Hour": "26",
+                    "number": "0"
+                }
+            ]
+        },
+        {
+            "Line": "きぬがわ鬼怒川温泉方面",
+            "Linecode": "24",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0"
+                },
+                {
+                    "Hour": "4",
+                    "number": "0"
+                },
+                {
+                    "Hour": "5",
+                    "number": "0"
+                },
+                {
+                    "Hour": "6",
+                    "number": "0"
+                },
+                {
+                    "Hour": "7",
+                    "number": "0"
+                },
+                {
+                    "Hour": "8",
+                    "number": "0"
+                },
+                {
+                    "Hour": "9",
+                    "number": "0"
+                },
+                {
+                    "Hour": "10",
+                    "number": "0"
+                },
+                {
+                    "Hour": "11",
+                    "number": "0"
+                },
+                {
+                    "Hour": "12",
+                    "number": "0"
+                },
+                {
+                    "Hour": "13",
+                    "number": "1"
+                },
+                {
+                    "Hour": "14",
+                    "number": "0"
+                },
+                {
+                    "Hour": "15",
+                    "number": "0"
+                },
+                {
+                    "Hour": "16",
+                    "number": "0"
+                },
+                {
+                    "Hour": "17",
+                    "number": "0"
+                },
+                {
+                    "Hour": "18",
+                    "number": "0"
+                },
+                {
+                    "Hour": "19",
+                    "number": "0"
+                },
+                {
+                    "Hour": "20",
+                    "number": "0"
+                },
+                {
+                    "Hour": "21",
+                    "number": "0"
+                },
+                {
+                    "Hour": "22",
+                    "number": "0"
+                },
+                {
+                    "Hour": "23",
+                    "number": "0"
+                },
+                {
+                    "Hour": "24",
+                    "number": "0"
+                },
+                {
+                    "Hour": "25",
+                    "number": "0"
+                },
+                {
+                    "Hour": "26",
+                    "number": "0"
+                }
+            ]
+        },
+        {
+            "Line": "さがみ本厚木・小田原方面",
+            "Linecode": "25",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0"
+                },
+                {
+                    "Hour": "4",
+                    "number": "0"
+                },
+                {
+                    "Hour": "5",
+                    "number": "0"
+                },
+                {
+                    "Hour": "6",
+                    "number": "0"
+                },
+                {
+                    "Hour": "7",
+                    "number": "1"
+                },
+                {
+                    "Hour": "8",
+                    "number": "0"
+                },
+                {
+                    "Hour": "9",
+                    "number": "0"
+                },
+                {
+                    "Hour": "10",
+                    "number": "0"
+                },
+                {
+                    "Hour": "11",
+                    "number": "0"
+                },
+                {
+                    "Hour": "12",
+                    "number": "0"
+                },
+                {
+                    "Hour": "13",
+                    "number": "0"
+                },
+                {
+                    "Hour": "14",
+                    "number": "0"
+                },
+                {
+                    "Hour": "15",
+                    "number": "0"
+                },
+                {
+                    "Hour": "16",
+                    "number": "1"
+                },
+                {
+                    "Hour": "17",
+                    "number": "1"
+                },
+                {
+                    "Hour": "18",
+                    "number": "0"
+                },
+                {
+                    "Hour": "19",
+                    "number": "0"
+                },
+                {
+                    "Hour": "20",
+                    "number": "0"
+                },
+                {
+                    "Hour": "21",
+                    "number": "0"
+                },
+                {
+                    "Hour": "22",
+                    "number": "0"
+                },
+                {
+                    "Hour": "23",
+                    "number": "0"
+                },
+                {
+                    "Hour": "24",
+                    "number": "0"
+                },
+                {
+                    "Hour": "25",
+                    "number": "0"
+                },
+                {
+                    "Hour": "26",
+                    "number": "0"
+                }
+            ]
+        },
+        {
+            "Line": "はこね箱根湯本方面",
+            "Linecode": "26",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0"
+                },
+                {
+                    "Hour": "4",
+                    "number": "0"
+                },
+                {
+                    "Hour": "5",
+                    "number": "0"
+                },
+                {
+                    "Hour": "6",
+                    "number": "0"
+                },
+                {
+                    "Hour": "7",
+                    "number": "2"
+                },
+                {
+                    "Hour": "8",
+                    "number": "2"
+                },
+                {
+                    "Hour": "9",
+                    "number": "1"
+                },
+                {
+                    "Hour": "10",
+                    "number": "0"
+                },
+                {
+                    "Hour": "11",
+                    "number": "2"
+                },
+                {
+                    "Hour": "12",
+                    "number": "2"
+                },
+                {
+                    "Hour": "13",
+                    "number": "2"
+                },
+                {
+                    "Hour": "14",
+                    "number": "2"
+                },
+                {
+                    "Hour": "15",
+                    "number": "3"
+                },
+                {
+                    "Hour": "16",
+                    "number": "2"
+                },
+                {
+                    "Hour": "17",
+                    "number": "2"
+                },
+                {
+                    "Hour": "18",
+                    "number": "0"
+                },
+                {
+                    "Hour": "19",
+                    "number": "0"
+                },
+                {
+                    "Hour": "20",
+                    "number": "0"
+                },
+                {
+                    "Hour": "21",
+                    "number": "0"
+                },
+                {
+                    "Hour": "22",
+                    "number": "0"
+                },
+                {
+                    "Hour": "23",
+                    "number": "0"
+                },
+                {
+                    "Hour": "24",
+                    "number": "0"
+                },
+                {
+                    "Hour": "25",
+                    "number": "0"
+                },
+                {
+                    "Hour": "26",
+                    "number": "0"
+                }
+            ]
+        },
+        {
+            "Line": "はちおうじ東京方面",
+            "Linecode": "27",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0"
+                },
+                {
+                    "Hour": "4",
+                    "number": "0"
+                },
+                {
+                    "Hour": "5",
+                    "number": "0"
+                },
+                {
+                    "Hour": "6",
+                    "number": "1"
+                },
+                {
+                    "Hour": "7",
+                    "number": "1"
+                },
+                {
+                    "Hour": "8",
+                    "number": "0"
+                },
+                {
+                    "Hour": "9",
+                    "number": "0"
+                },
+                {
+                    "Hour": "10",
+                    "number": "0"
+                },
+                {
+                    "Hour": "11",
+                    "number": "0"
+                },
+                {
+                    "Hour": "12",
+                    "number": "0"
+                },
+                {
+                    "Hour": "13",
+                    "number": "0"
+                },
+                {
+                    "Hour": "14",
+                    "number": "0"
+                },
+                {
+                    "Hour": "15",
+                    "number": "0"
+                },
+                {
+                    "Hour": "16",
+                    "number": "0"
+                },
+                {
+                    "Hour": "17",
+                    "number": "0"
+                },
+                {
+                    "Hour": "18",
+                    "number": "0"
+                },
+                {
+                    "Hour": "19",
+                    "number": "0"
+                },
+                {
+                    "Hour": "20",
+                    "number": "0"
+                },
+                {
+                    "Hour": "21",
+                    "number": "0"
+                },
+                {
+                    "Hour": "22",
+                    "number": "0"
+                },
+                {
+                    "Hour": "23",
+                    "number": "0"
+                },
+                {
+                    "Hour": "24",
+                    "number": "0"
+                },
+                {
+                    "Hour": "25",
+                    "number": "0"
+                },
+                {
+                    "Hour": "26",
+                    "number": "0"
+                }
+            ]
+        },
+        {
+            "Line": "はちおうじ八王子方面",
+            "Linecode": "28",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0"
+                },
+                {
+                    "Hour": "4",
+                    "number": "0"
+                },
+                {
+                    "Hour": "5",
+                    "number": "0"
+                },
+                {
+                    "Hour": "6",
+                    "number": "0"
+                },
+                {
+                    "Hour": "7",
+                    "number": "0"
+                },
+                {
+                    "Hour": "8",
+                    "number": "0"
+                },
+                {
+                    "Hour": "9",
+                    "number": "0"
+                },
+                {
+                    "Hour": "10",
+                    "number": "0"
+                },
+                {
+                    "Hour": "11",
+                    "number": "0"
+                },
+                {
+                    "Hour": "12",
+                    "number": "0"
+                },
+                {
+                    "Hour": "13",
+                    "number": "0"
+                },
+                {
+                    "Hour": "14",
+                    "number": "0"
+                },
+                {
+                    "Hour": "15",
+                    "number": "0"
+                },
+                {
+                    "Hour": "16",
+                    "number": "0"
+                },
+                {
+                    "Hour": "17",
+                    "number": "0"
+                },
+                {
+                    "Hour": "18",
+                    "number": "1"
+                },
+                {
+                    "Hour": "19",
+                    "number": "0"
+                },
+                {
+                    "Hour": "20",
+                    "number": "1"
+                },
+                {
+                    "Hour": "21",
+                    "number": "1"
+                },
+                {
+                    "Hour": "22",
+                    "number": "1"
+                },
+                {
+                    "Hour": "23",
+                    "number": "1"
+                },
+                {
+                    "Hour": "24",
+                    "number": "0"
+                },
+                {
+                    "Hour": "25",
+                    "number": "0"
+                },
+                {
+                    "Hour": "26",
+                    "number": "0"
+                }
+            ]
+        },
+        {
+            "Line": "ふじさん御殿場方面",
+            "Linecode": "29",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0"
+                },
+                {
+                    "Hour": "4",
+                    "number": "0"
+                },
+                {
+                    "Hour": "5",
+                    "number": "0"
+                },
+                {
+                    "Hour": "6",
+                    "number": "1"
+                },
+                {
+                    "Hour": "7",
+                    "number": "0"
+                },
+                {
+                    "Hour": "8",
+                    "number": "0"
+                },
+                {
+                    "Hour": "9",
+                    "number": "0"
+                },
+                {
+                    "Hour": "10",
+                    "number": "1"
+                },
+                {
+                    "Hour": "11",
+                    "number": "0"
+                },
+                {
+                    "Hour": "12",
+                    "number": "0"
+                },
+                {
+                    "Hour": "13",
+                    "number": "0"
+                },
+                {
+                    "Hour": "14",
+                    "number": "1"
+                },
+                {
+                    "Hour": "15",
+                    "number": "0"
+                },
+                {
+                    "Hour": "16",
+                    "number": "0"
+                },
+                {
+                    "Hour": "17",
+                    "number": "0"
+                },
+                {
+                    "Hour": "18",
+                    "number": "0"
+                },
+                {
+                    "Hour": "19",
+                    "number": "0"
+                },
+                {
+                    "Hour": "20",
+                    "number": "0"
+                },
+                {
+                    "Hour": "21",
+                    "number": "0"
+                },
+                {
+                    "Hour": "22",
+                    "number": "0"
+                },
+                {
+                    "Hour": "23",
+                    "number": "0"
+                },
+                {
+                    "Hour": "24",
+                    "number": "0"
+                },
+                {
+                    "Hour": "25",
+                    "number": "0"
+                },
+                {
+                    "Hour": "26",
+                    "number": "0"
+                }
+            ]
+        },
+        {
+            "Line": "スーパーはこね箱根湯本方面",
+            "Linecode": "30",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0"
+                },
+                {
+                    "Hour": "4",
+                    "number": "0"
+                },
+                {
+                    "Hour": "5",
+                    "number": "0"
+                },
+                {
+                    "Hour": "6",
+                    "number": "0"
+                },
+                {
+                    "Hour": "7",
+                    "number": "0"
+                },
+                {
+                    "Hour": "8",
+                    "number": "0"
+                },
+                {
+                    "Hour": "9",
+                    "number": "0"
+                },
+                {
+                    "Hour": "10",
+                    "number": "1"
+                },
+                {
+                    "Hour": "11",
+                    "number": "1"
+                },
+                {
+                    "Hour": "12",
+                    "number": "0"
+                },
+                {
+                    "Hour": "13",
+                    "number": "0"
+                },
+                {
+                    "Hour": "14",
+                    "number": "0"
+                },
+                {
+                    "Hour": "15",
+                    "number": "0"
+                },
+                {
+                    "Hour": "16",
+                    "number": "0"
+                },
+                {
+                    "Hour": "17",
+                    "number": "0"
+                },
+                {
+                    "Hour": "18",
+                    "number": "0"
+                },
+                {
+                    "Hour": "19",
+                    "number": "0"
+                },
+                {
+                    "Hour": "20",
+                    "number": "0"
+                },
+                {
+                    "Hour": "21",
+                    "number": "0"
+                },
+                {
+                    "Hour": "22",
+                    "number": "0"
+                },
+                {
+                    "Hour": "23",
+                    "number": "0"
+                },
+                {
+                    "Hour": "24",
+                    "number": "0"
+                },
+                {
+                    "Hour": "25",
+                    "number": "0"
+                },
+                {
+                    "Hour": "26",
+                    "number": "0"
+                }
+            ]
+        },
+        {
+            "Line": "スペーシアきぬがわ鬼怒川温泉方面",
+            "Linecode": "31",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0"
+                },
+                {
+                    "Hour": "4",
+                    "number": "0"
+                },
+                {
+                    "Hour": "5",
+                    "number": "0"
+                },
+                {
+                    "Hour": "6",
+                    "number": "0"
+                },
+                {
+                    "Hour": "7",
+                    "number": "0"
+                },
+                {
+                    "Hour": "8",
+                    "number": "0"
+                },
+                {
+                    "Hour": "9",
+                    "number": "0"
+                },
+                {
+                    "Hour": "10",
+                    "number": "1"
+                },
+                {
+                    "Hour": "11",
+                    "number": "0"
+                },
+                {
+                    "Hour": "12",
+                    "number": "0"
+                },
+                {
+                    "Hour": "13",
+                    "number": "0"
+                },
+                {
+                    "Hour": "14",
+                    "number": "0"
+                },
+                {
+                    "Hour": "15",
+                    "number": "0"
+                },
+                {
+                    "Hour": "16",
+                    "number": "0"
+                },
+                {
+                    "Hour": "17",
+                    "number": "1"
+                },
+                {
+                    "Hour": "18",
+                    "number": "0"
+                },
+                {
+                    "Hour": "19",
+                    "number": "0"
+                },
+                {
+                    "Hour": "20",
+                    "number": "0"
+                },
+                {
+                    "Hour": "21",
+                    "number": "0"
+                },
+                {
+                    "Hour": "22",
+                    "number": "0"
+                },
+                {
+                    "Hour": "23",
+                    "number": "0"
+                },
+                {
+                    "Hour": "24",
+                    "number": "0"
+                },
+                {
+                    "Hour": "25",
+                    "number": "0"
+                },
+                {
+                    "Hour": "26",
+                    "number": "0"
+                }
+            ]
+        },
+        {
+            "Line": "ホームウェイ小田原・藤沢方面",
+            "Linecode": "32",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0"
+                },
+                {
+                    "Hour": "4",
+                    "number": "0"
+                },
+                {
+                    "Hour": "5",
+                    "number": "0"
+                },
+                {
+                    "Hour": "6",
+                    "number": "0"
+                },
+                {
+                    "Hour": "7",
+                    "number": "0"
+                },
+                {
+                    "Hour": "8",
+                    "number": "0"
+                },
+                {
+                    "Hour": "9",
+                    "number": "0"
+                },
+                {
+                    "Hour": "10",
+                    "number": "0"
+                },
+                {
+                    "Hour": "11",
+                    "number": "0"
+                },
+                {
+                    "Hour": "12",
+                    "number": "0"
+                },
+                {
+                    "Hour": "13",
+                    "number": "0"
+                },
+                {
+                    "Hour": "14",
+                    "number": "0"
+                },
+                {
+                    "Hour": "15",
+                    "number": "0"
+                },
+                {
+                    "Hour": "16",
+                    "number": "0"
+                },
+                {
+                    "Hour": "17",
+                    "number": "0"
+                },
+                {
+                    "Hour": "18",
+                    "number": "3"
+                },
+                {
+                    "Hour": "19",
+                    "number": "3"
+                },
+                {
+                    "Hour": "20",
+                    "number": "3"
+                },
+                {
+                    "Hour": "21",
+                    "number": "3"
+                },
+                {
+                    "Hour": "22",
+                    "number": "3"
+                },
+                {
+                    "Hour": "23",
+                    "number": "3"
+                },
+                {
+                    "Hour": "24",
+                    "number": "0"
+                },
+                {
+                    "Hour": "25",
+                    "number": "0"
+                },
+                {
+                    "Hour": "26",
+                    "number": "0"
+                }
+            ]
+        },
+        {
+            "Line": "ホームライナー小田原小田原方面",
+            "Linecode": "33",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0"
+                },
+                {
+                    "Hour": "4",
+                    "number": "0"
+                },
+                {
+                    "Hour": "5",
+                    "number": "0"
+                },
+                {
+                    "Hour": "6",
+                    "number": "0"
+                },
+                {
+                    "Hour": "7",
+                    "number": "0"
+                },
+                {
+                    "Hour": "8",
+                    "number": "0"
+                },
+                {
+                    "Hour": "9",
+                    "number": "0"
+                },
+                {
+                    "Hour": "10",
+                    "number": "0"
+                },
+                {
+                    "Hour": "11",
+                    "number": "0"
+                },
+                {
+                    "Hour": "12",
+                    "number": "0"
+                },
+                {
+                    "Hour": "13",
+                    "number": "0"
+                },
+                {
+                    "Hour": "14",
+                    "number": "0"
+                },
+                {
+                    "Hour": "15",
+                    "number": "0"
+                },
+                {
+                    "Hour": "16",
+                    "number": "0"
+                },
+                {
+                    "Hour": "17",
+                    "number": "0"
+                },
+                {
+                    "Hour": "18",
+                    "number": "0"
+                },
+                {
+                    "Hour": "19",
+                    "number": "1"
+                },
+                {
+                    "Hour": "20",
+                    "number": "0"
+                },
+                {
+                    "Hour": "21",
+                    "number": "1"
+                },
+                {
+                    "Hour": "22",
+                    "number": "0"
+                },
+                {
+                    "Hour": "23",
+                    "number": "0"
+                },
+                {
+                    "Hour": "24",
+                    "number": "0"
+                },
+                {
+                    "Hour": "25",
+                    "number": "0"
+                },
+                {
+                    "Hour": "26",
+                    "number": "0"
+                }
+            ]
+        },
+        {
+            "Line": "京王ライナー京王八王子・橋本方面",
+            "Linecode": "34",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0"
+                },
+                {
+                    "Hour": "4",
+                    "number": "0"
+                },
+                {
+                    "Hour": "5",
+                    "number": "0"
+                },
+                {
+                    "Hour": "6",
+                    "number": "0"
+                },
+                {
+                    "Hour": "7",
+                    "number": "0"
+                },
+                {
+                    "Hour": "8",
+                    "number": "0"
+                },
+                {
+                    "Hour": "9",
+                    "number": "0"
+                },
+                {
+                    "Hour": "10",
+                    "number": "0"
+                },
+                {
+                    "Hour": "11",
+                    "number": "0"
+                },
+                {
+                    "Hour": "12",
+                    "number": "0"
+                },
+                {
+                    "Hour": "13",
+                    "number": "0"
+                },
+                {
+                    "Hour": "14",
+                    "number": "0"
+                },
+                {
+                    "Hour": "15",
+                    "number": "0"
+                },
+                {
+                    "Hour": "16",
+                    "number": "1"
+                },
+                {
+                    "Hour": "17",
+                    "number": "2"
+                },
+                {
+                    "Hour": "18",
+                    "number": "2"
+                },
+                {
+                    "Hour": "19",
+                    "number": "2"
+                },
+                {
+                    "Hour": "20",
+                    "number": "2"
+                },
+                {
+                    "Hour": "21",
+                    "number": "2"
+                },
+                {
+                    "Hour": "22",
+                    "number": "2"
+                },
+                {
+                    "Hour": "23",
+                    "number": "2"
+                },
+                {
+                    "Hour": "24",
+                    "number": "0"
+                },
+                {
+                    "Hour": "25",
+                    "number": "0"
+                },
+                {
+                    "Hour": "26",
+                    "number": "0"
+                }
+            ]
+        },
+        {
+            "Line": "成田エクスプレス高尾方面",
+            "Linecode": "35",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0"
+                },
+                {
+                    "Hour": "4",
+                    "number": "0"
+                },
+                {
+                    "Hour": "5",
+                    "number": "0"
+                },
+                {
+                    "Hour": "6",
+                    "number": "0"
+                },
+                {
+                    "Hour": "7",
+                    "number": "0"
+                },
+                {
+                    "Hour": "8",
+                    "number": "0"
+                },
+                {
+                    "Hour": "9",
+                    "number": "0"
+                },
+                {
+                    "Hour": "10",
+                    "number": "0"
+                },
+                {
+                    "Hour": "11",
+                    "number": "0"
+                },
+                {
+                    "Hour": "12",
+                    "number": "0"
+                },
+                {
+                    "Hour": "13",
+                    "number": "0"
+                },
+                {
+                    "Hour": "14",
+                    "number": "0"
+                },
+                {
+                    "Hour": "15",
+                    "number": "0"
+                },
+                {
+                    "Hour": "16",
+                    "number": "0"
+                },
+                {
+                    "Hour": "17",
+                    "number": "0"
+                },
+                {
+                    "Hour": "18",
+                    "number": "0"
+                },
+                {
+                    "Hour": "19",
+                    "number": "0"
+                },
+                {
+                    "Hour": "20",
+                    "number": "0"
+                },
+                {
+                    "Hour": "21",
+                    "number": "1"
+                },
+                {
+                    "Hour": "22",
+                    "number": "1"
+                },
+                {
+                    "Hour": "23",
+                    "number": "0"
+                },
+                {
+                    "Hour": "24",
+                    "number": "0"
+                },
+                {
+                    "Hour": "25",
+                    "number": "0"
+                },
+                {
+                    "Hour": "26",
+                    "number": "0"
+                }
+            ]
+        },
+        {
+            "Line": "成田エクスプレス成田空港方面",
+            "Linecode": "36",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0"
+                },
+                {
+                    "Hour": "4",
+                    "number": "0"
+                },
+                {
+                    "Hour": "5",
+                    "number": "1"
+                },
+                {
+                    "Hour": "6",
+                    "number": "2"
+                },
+                {
+                    "Hour": "7",
+                    "number": "1"
+                },
+                {
+                    "Hour": "8",
+                    "number": "0"
+                },
+                {
+                    "Hour": "9",
+                    "number": "0"
+                },
+                {
+                    "Hour": "10",
+                    "number": "0"
+                },
+                {
+                    "Hour": "11",
+                    "number": "0"
+                },
+                {
+                    "Hour": "12",
+                    "number": "0"
+                },
+                {
+                    "Hour": "13",
+                    "number": "0"
+                },
+                {
+                    "Hour": "14",
+                    "number": "0"
+                },
+                {
+                    "Hour": "15",
+                    "number": "0"
+                },
+                {
+                    "Hour": "16",
+                    "number": "0"
+                },
+                {
+                    "Hour": "17",
+                    "number": "0"
+                },
+                {
+                    "Hour": "18",
+                    "number": "2"
+                },
+                {
+                    "Hour": "19",
+                    "number": "1"
+                },
+                {
+                    "Hour": "20",
+                    "number": "0"
+                },
+                {
+                    "Hour": "21",
+                    "number": "0"
+                },
+                {
+                    "Hour": "22",
+                    "number": "0"
+                },
+                {
+                    "Hour": "23",
+                    "number": "0"
+                },
+                {
+                    "Hour": "24",
+                    "number": "0"
+                },
+                {
+                    "Hour": "25",
+                    "number": "0"
+                },
+                {
+                    "Hour": "26",
+                    "number": "0"
+                }
+            ]
+        },
+        {
+            "Line": "成田エクスプレス池袋・大宮方面",
+            "Linecode": "37",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0"
+                },
+                {
+                    "Hour": "4",
+                    "number": "0"
+                },
+                {
+                    "Hour": "5",
+                    "number": "0"
+                },
+                {
+                    "Hour": "6",
+                    "number": "0"
+                },
+                {
+                    "Hour": "7",
+                    "number": "0"
+                },
+                {
+                    "Hour": "8",
+                    "number": "0"
+                },
+                {
+                    "Hour": "9",
+                    "number": "0"
+                },
+                {
+                    "Hour": "10",
+                    "number": "0"
+                },
+                {
+                    "Hour": "11",
+                    "number": "0"
+                },
+                {
+                    "Hour": "12",
+                    "number": "0"
+                },
+                {
+                    "Hour": "13",
+                    "number": "0"
+                },
+                {
+                    "Hour": "14",
+                    "number": "0"
+                },
+                {
+                    "Hour": "15",
+                    "number": "0"
+                },
+                {
+                    "Hour": "16",
+                    "number": "0"
+                },
+                {
+                    "Hour": "17",
+                    "number": "0"
+                },
+                {
+                    "Hour": "18",
+                    "number": "1"
+                },
+                {
+                    "Hour": "19",
+                    "number": "0"
+                },
+                {
+                    "Hour": "20",
+                    "number": "1"
+                },
+                {
+                    "Hour": "21",
+                    "number": "0"
+                },
+                {
+                    "Hour": "22",
+                    "number": "0"
+                },
+                {
+                    "Hour": "23",
+                    "number": "1"
+                },
+                {
+                    "Hour": "24",
+                    "number": "0"
+                },
+                {
+                    "Hour": "25",
+                    "number": "0"
+                },
+                {
+                    "Hour": "26",
+                    "number": "0"
+                }
+            ]
+        },
+        {
+            "Line": "日光東武日光方面",
+            "Linecode": "38",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0"
+                },
+                {
+                    "Hour": "4",
+                    "number": "0"
+                },
+                {
+                    "Hour": "5",
+                    "number": "0"
+                },
+                {
+                    "Hour": "6",
+                    "number": "0"
+                },
+                {
+                    "Hour": "7",
+                    "number": "1"
+                },
+                {
+                    "Hour": "8",
+                    "number": "0"
+                },
+                {
+                    "Hour": "9",
+                    "number": "0"
+                },
+                {
+                    "Hour": "10",
+                    "number": "0"
+                },
+                {
+                    "Hour": "11",
+                    "number": "0"
+                },
+                {
+                    "Hour": "12",
+                    "number": "0"
+                },
+                {
+                    "Hour": "13",
+                    "number": "0"
+                },
+                {
+                    "Hour": "14",
+                    "number": "0"
+                },
+                {
+                    "Hour": "15",
+                    "number": "0"
+                },
+                {
+                    "Hour": "16",
+                    "number": "0"
+                },
+                {
+                    "Hour": "17",
+                    "number": "0"
+                },
+                {
+                    "Hour": "18",
+                    "number": "0"
+                },
+                {
+                    "Hour": "19",
+                    "number": "0"
+                },
+                {
+                    "Hour": "20",
+                    "number": "0"
+                },
+                {
+                    "Hour": "21",
+                    "number": "0"
+                },
+                {
+                    "Hour": "22",
+                    "number": "0"
+                },
+                {
+                    "Hour": "23",
+                    "number": "0"
+                },
+                {
+                    "Hour": "24",
+                    "number": "0"
+                },
+                {
+                    "Hour": "25",
+                    "number": "0"
+                },
+                {
+                    "Hour": "26",
+                    "number": "0"
+                }
+            ]
+        },
+        {
+            "Line": "富士回遊河口湖方面",
+            "Linecode": "39",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0"
+                },
+                {
+                    "Hour": "4",
+                    "number": "0"
+                },
+                {
+                    "Hour": "5",
+                    "number": "0"
+                },
+                {
+                    "Hour": "6",
+                    "number": "0"
+                },
+                {
+                    "Hour": "7",
+                    "number": "1"
+                },
+                {
+                    "Hour": "8",
+                    "number": "1"
+                },
+                {
+                    "Hour": "9",
+                    "number": "1"
+                },
+                {
+                    "Hour": "10",
+                    "number": "0"
+                },
+                {
+                    "Hour": "11",
+                    "number": "0"
+                },
+                {
+                    "Hour": "12",
+                    "number": "0"
+                },
+                {
+                    "Hour": "13",
+                    "number": "0"
+                },
+                {
+                    "Hour": "14",
+                    "number": "0"
+                },
+                {
+                    "Hour": "15",
+                    "number": "0"
+                },
+                {
+                    "Hour": "16",
+                    "number": "0"
+                },
+                {
+                    "Hour": "17",
+                    "number": "0"
+                },
+                {
+                    "Hour": "18",
+                    "number": "0"
+                },
+                {
+                    "Hour": "19",
+                    "number": "0"
+                },
+                {
+                    "Hour": "20",
+                    "number": "0"
+                },
+                {
+                    "Hour": "21",
+                    "number": "0"
+                },
+                {
+                    "Hour": "22",
+                    "number": "0"
+                },
+                {
+                    "Hour": "23",
+                    "number": "0"
+                },
+                {
+                    "Hour": "24",
+                    "number": "0"
+                },
+                {
+                    "Hour": "25",
+                    "number": "0"
+                },
+                {
+                    "Hour": "26",
+                    "number": "0"
+                }
+            ]
+        },
+        {
+            "Line": "踊り子伊豆急下田方面",
+            "Linecode": "40",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0"
+                },
+                {
+                    "Hour": "4",
+                    "number": "0"
+                },
+                {
+                    "Hour": "5",
+                    "number": "0"
+                },
+                {
+                    "Hour": "6",
+                    "number": "0"
+                },
+                {
+                    "Hour": "7",
+                    "number": "0"
+                },
+                {
+                    "Hour": "8",
+                    "number": "0"
+                },
+                {
+                    "Hour": "9",
+                    "number": "1"
+                },
+                {
+                    "Hour": "10",
+                    "number": "0"
+                },
+                {
+                    "Hour": "11",
+                    "number": "0"
+                },
+                {
+                    "Hour": "12",
+                    "number": "0"
+                },
+                {
+                    "Hour": "13",
+                    "number": "0"
+                },
+                {
+                    "Hour": "14",
+                    "number": "0"
+                },
+                {
+                    "Hour": "15",
+                    "number": "0"
+                },
+                {
+                    "Hour": "16",
+                    "number": "0"
+                },
+                {
+                    "Hour": "17",
+                    "number": "0"
+                },
+                {
+                    "Hour": "18",
+                    "number": "0"
+                },
+                {
+                    "Hour": "19",
+                    "number": "0"
+                },
+                {
+                    "Hour": "20",
+                    "number": "0"
+                },
+                {
+                    "Hour": "21",
+                    "number": "0"
+                },
+                {
+                    "Hour": "22",
+                    "number": "0"
+                },
+                {
+                    "Hour": "23",
+                    "number": "0"
+                },
+                {
+                    "Hour": "24",
+                    "number": "0"
+                },
+                {
+                    "Hour": "25",
+                    "number": "0"
+                },
+                {
+                    "Hour": "26",
+                    "number": "0"
+                }
+            ]
+        },
+        {
+            "Line": "踊り子池袋方面",
+            "Linecode": "41",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0"
+                },
+                {
+                    "Hour": "4",
+                    "number": "0"
+                },
+                {
+                    "Hour": "5",
+                    "number": "0"
+                },
+                {
+                    "Hour": "6",
+                    "number": "0"
+                },
+                {
+                    "Hour": "7",
+                    "number": "0"
+                },
+                {
+                    "Hour": "8",
+                    "number": "0"
+                },
+                {
+                    "Hour": "9",
+                    "number": "0"
+                },
+                {
+                    "Hour": "10",
+                    "number": "0"
+                },
+                {
+                    "Hour": "11",
+                    "number": "0"
+                },
+                {
+                    "Hour": "12",
+                    "number": "0"
+                },
+                {
+                    "Hour": "13",
+                    "number": "0"
+                },
+                {
+                    "Hour": "14",
+                    "number": "0"
+                },
+                {
+                    "Hour": "15",
+                    "number": "0"
+                },
+                {
+                    "Hour": "16",
+                    "number": "0"
+                },
+                {
+                    "Hour": "17",
+                    "number": "0"
+                },
+                {
+                    "Hour": "18",
+                    "number": "1"
+                },
+                {
+                    "Hour": "19",
+                    "number": "0"
+                },
+                {
+                    "Hour": "20",
+                    "number": "0"
+                },
+                {
+                    "Hour": "21",
+                    "number": "0"
+                },
+                {
+                    "Hour": "22",
+                    "number": "0"
+                },
+                {
+                    "Hour": "23",
+                    "number": "0"
+                },
+                {
+                    "Hour": "24",
+                    "number": "0"
+                },
+                {
+                    "Hour": "25",
+                    "number": "0"
+                },
+                {
+                    "Hour": "26",
+                    "number": "0"
+                }
+            ]
+        }
+    ]
+}
