@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.css" />
+<!-- leafletのスクリプトを読み込む-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.js"></script>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <style>
+            .tooltip {
+   position: absolute;
+   width: auto;
+   height: auto;
+   padding: 4px;
+   color: #fff;
+   background: #333;
+   border-radius: 4px;
+   visibility: hidden;
+ }
+ </style>
+        <title>D3 Test</title>
+        <script src="./lib/d3.js" charset="utf-8"></script>
+        <!-- <script src="./modules/SelectStation.js" charset="utf-8"></script> -->
+        <!-- <script src="./modules/SelectLine.js" charset="utf-8"></script> -->
+        <!-- <script src="./modules/ShowTimeGraph.js" charset="utf-8"></script> -->
+        <!-- <script src="./modules/ShowSumGraph.js" charset="utf-8"></script> -->
+    </head>
+<body>
+    
+<div id="map" style="width:960px;height:500px"></div>
+
+<script type="text/javascript">
+
+var map = new L.Map(d3.select('div').node()).setView([35.678707, 139.739143], 12);
+var tile = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+  attribution : '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(map);
+var svg = d3.select(map.getPanes().overlayPane).append('svg').attr('class', 'leaflet-zoom-hide');
+var plotLayer = svg.append('g');
+var tooltip = d3.select("body").append("div").attr("class", "tooltip");
+
+let dataset;
+var width = 800;
+var height = 800;
+
+var path = "./data/kanagawa/date20201117.json";
+d3.json(path).then(function(data) {
+    let stationData = data.Stationlist;
+    SelectData(stationData);
+    //var dataPath = StationCode;
+    //console.log(datapath);
+    //showGraph(dataset);
+});
+
+var updatePosition = function(d)
+{
+  d.pos = map.latLngToLayerPoint(new L.LatLng(d.GeoPoint.lati_d, d.GeoPoint.longi_d));
+  d3.select(this).attr('cx',d.pos.x).attr('cy',d.pos.y);
+}
+
+function SelectData(data){
+    var circle = plotLayer
+        .selectAll('circle')
+        .data(data)
+        .enter()
+        .append('circle')
+        .attr('stroke', 'black')
+        .attr('stroke-width', 1)
+        .attr('fill', 'red')
+        .attr('fill-opacity', 0.7)
+        .attr('r', 5)
+        .each(updatePosition)
+        .on("click",function(mouse,d){
+        //console.log(d.Station.code);
+            var code = d.Station.code;
+            var dataPath = "./data/kanagawa/s"+code+".json";
+            console.log(dataPath);
+            d3.json(dataPath).then(function(data){
+                console.log(data);
+                showGraph(data);
+            })
+        })
+        .on("mouseover", function(event,d) {
+            d3.select(this).attr('stroke', 'white');
+            tooltip
+            .style("visibility", "visible")
+            .html(d.Station.Name);
+        })
+        .on("mousemove", function(d) {
+            tooltip
+            .style("top", (event.pageY - 20) + "px")
+            .style("left", (event.pageX + 10) + "px");
+        })
+        .on("mouseout", function(d) {
+            d3.select(this).attr('stroke', 'black');
+            tooltip.style("visibility", "hidden");
+        });
+        // console.log(dataPath);
+        // return dataPath;
+
+    map.on('move', function(){
+        plotLayer.selectAll('circle').each(updatePosition);
+    });
+    reset();
+    
+    
+//return code;
+}
+
+var reset = function()
+{
+  var bounds = map.getBounds();
+  var topLeft = map.latLngToLayerPoint(bounds.getNorthWest());
+  var bottomRight = map.latLngToLayerPoint(bounds.getSouthEast());
+
+  svg.attr("width", bottomRight.x - topLeft.x)
+    .attr("height", bottomRight.y - topLeft.y)
+    .style("left", topLeft.x + "px")
+    .style("top", topLeft.y + "px");
+
+  plotLayer.attr('transform', 'translate('+ -topLeft.x + ',' + -topLeft.y + ')');
+}
+map.on("move", reset);
+
+
+function showGraph(dataset){
+    var svg = d3.select("body").append("svg")
+    .attr("width", 2000)
+    .attr("height", 1000)
+    .attr("x",0)
+    .attr("y",0);
+
+    var TimeTable = dataset.Linelist[0]["HourTable"]
+    var bar = svg.selectAll("rect")
+    .data(TimeTable)
+    .enter()
+    .append("rect");
+    
+    console.log(dataset);
+    
+    
+    bar.attr("x", function(Timetable, i) { return i * 40 + 20; })
+    .attr("width", 20)
+    .attr("y", function(d,i) { return 200 - d.number * 5; })
+    .attr("height", function(d,i) { return d.number * 5;})
+    .attr("fill","green");
+    
+    var text = svg.selectAll("text")
+    .data(TimeTable)
+    .enter()
+    .append("text");
+
+    var tt_text = text.text(function(d,i) { return d.Hour;})
+    .attr("x", function(d, i) { return (i*40) + 25;})
+    .attr("y", 220);
+
+    svg.append("text")
+    .attr("x",width/2)
+    .attr("y", 16)
+    .text("時間帯別");
+
+    var data = dataset.Sum;
+    var box = svg.selectAll("circle")
+    .data(data)
+    .enter()
+    .append("rect");
+    //console.log(dataset.Sum);
+    box.attr("x", function(d, i) { return i * 40 + 20; })
+        .attr("width",20)
+        .attr("y", function(d,i) { return 500 - d.number ; })
+        .attr("height", function(d,i) { return d.number ;})
+        .attr("fill","blue"); 
+    
+    var text1 = svg.selectAll("text1")
+    .data(data)
+    .enter()
+    .append("text")
+    .attr("text-anchor", "start");
+
+    var sum_text = text1
+    .attr("text-anchor", "start")
+    .attr("x", function(d, i) { return (i*34.6) + 280;})
+    .attr("y", function (d,i){return 440-(i*20);})
+    .attr("transform", "rotate(30)")
+    .text(function(d,i) { return d.Line;});
+    
+    
+   // .attr("transform", "rotate(-30)");
+
+    svg.append("text")
+    .attr("x",15)
+    .attr("y", 290)
+    .text("路線方面別");
+}
+
+
+</script>
+</body></html>
