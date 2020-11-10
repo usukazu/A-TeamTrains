@@ -50,7 +50,7 @@ sumButton.attr("x",10)
 .on("click",function(mouse,d){
     d3.select("svg").remove();
     //console.log(d);
-    var sumData = data.Sum;
+    var sumData = data;
     var Station = data.Station;
     console.log(d);
     ShowSumGraph(sumData,Station);
