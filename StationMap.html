@@ -7,6 +7,10 @@
         <meta charset="utf-8">
         <title>D3 Test</title>
         <script src="./lib/d3.js" charset="utf-8"></script>
+        <script src="./modules/SelectStation.js" charset="utf-8"></script>
+        <script src="./modules/SelectLine.js" charset="utf-8"></script>
+        <script src="./modules/ShowTimeGraph.js" charset="utf-8"></script>
+        <script src="./modules/ShowSumGraph.js" charset="utf-8"></script>
     </head>
 <body>
     
@@ -59,7 +63,7 @@ function SelectData(data){
             console.log(dataPath);
             d3.json(dataPath).then(function(data){
                 console.log(data);
-                showGraph(data);
+                SelectLine(data);
         });
         // console.log(dataPath);
         // return dataPath;
