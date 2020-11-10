@@ -1,7 +1,7 @@
-function ShowTimeGraph(dataset,Line){
+function ShowTimeGraph(dataset,　Line){
     var svg = d3.select("body").append("svg")
     .attr("width", 2000)
-    .attr("height", 1000)
+    .attr("height", 300)
     .attr("x",0)
     .attr("y",0);
 
