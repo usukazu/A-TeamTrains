@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.js"></script>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <style>
+            .tooltip {
+   position: absolute;
+   width: auto;
+   height: auto;
+   padding: 4px;
+   color: #fff;
+   background: #333;
+   border-radius: 4px;
+   visibility: hidden;
+ }
+ </style>
+        <title>D3 Test</title>
+        <script src="./lib/d3/d3.js" charset="utf-8"></script>
+        <!-- <script src="./modules/SelectStation.js" charset="utf-8"></script> -->
+        <script src="./modules/SelectLine.js" charset="utf-8"></script>
+        <script src="./modules/ShowTimeGraph.js" charset="utf-8"></script>
+        <script src="./modules/ShowSumGraph.js" charset="utf-8"></script>
+    </head>
+<body>
+    <form name="form1">
+        <p>本数下限：
+        <input type="text" id="min">
+        本数上限：
+        <input type="text" id="max"></p>
+        <p>駅名：
+            <input type="text" id="name"></p>
+        <p><input type="checkbox" name="corp" value="True" checked="checked">JR
+            <input type="checkbox" name="corp" value="True" checked="checked">私鉄</p>
+        <p><input type="button" value="確定" onclick="set()"><input type="button" value="リセット" onclick="statereset()"></p>
+    </form>
+<div id="map" style="width:1000px;height:500px"></div>
+<script type="text/javascript">
+
+var map = new L.Map(d3.select('div').node()).setView([35.678707, 139.739143], 12);
+var tile = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+  attribution : '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(map);
+var svg = d3.select(map.getPanes().overlayPane).append('svg').attr('class', 'leaflet-zoom-hide');
+var plotLayer = svg.append('g');
+var tooltip = d3.select("body").append("div").attr("class", "tooltip");
+var max = 10000;
+var min = 0;
+var staname = "";
+
+var dataset;
+var path = "./kanagawa/date20201117.json";
+d3.json(path).then( function(data) {
+    let stationData = data.Stationlist;
+    SelectStation(stationData);
+});
+
+async function SelectStation(data){
+    var fill = d3.scaleLog()
+    .domain([10, 200, 4000])
+    .range(["blue","yellow", "red"]);
+
+    circle = plotLayer
+    .selectAll('circle')
+    .data(data)
+    .enter()
+    .append('circle')
+    .attr('stroke', 'black')
+    .attr('stroke-width', 1)
+    .attr('fill', function(d) {if(d.Sum!="0") return fill(Number(d.Sum)); else return "black";})
+    .attr('fill-opacity', 0.7)
+    .attr('stroke-opacity', 0.7)
+    .attr('r', 5)
+    .attr("selected", "true")
+    .each(updatePosition)
+    .on("click",function(mouse,d){
+    //console.log(d.Station.code);
+        if(d3.select(this).attr("selected")=="true"){
+            map.setView([d.GeoPoint.lati_d, d.GeoPoint.longi_d], 12);
+            var code = d.Station.code;
+            var dataPath = "./kanagawa/s"+code+".json";
+            d3.json(dataPath).then(function(data){
+                console.log(data);
+                SelectLine(data);
+            })
+        }
+    })
+    .on("mouseover", function(event,d) {
+        if(d3.select(this).attr("selected")=="true"){
+            d3.select(this).attr('stroke', 'white');
+            tooltip
+            .style("visibility", "visible")
+            .html(d.Station.Name+"<br>本数:"+d.Sum);
+        }
+    })
+    .on("mousemove", function(event,d) {
+        if(d3.select(this).attr("selected")=="true"){
+            tooltip
+            .style("top", (event.pageY - 20) + "px")
+            .style("left", (event.pageX + 10) + "px");
+        }
+    })
+    .on("mouseout", function(d) {
+        if(d3.select(this).attr("selected")=="true"){
+            d3.select(this).attr('stroke', 'black');
+            tooltip.style("visibility", "hidden");
+        }
+    });
+
+    map.on('move', function(){
+        plotLayer.selectAll('circle').each(updatePosition);
+    });
+    // mapreset();
+}
+
+var updatePosition = function(d)
+{
+  d.pos = map.latLngToLayerPoint(new L.LatLng(d.GeoPoint.lati_d, d.GeoPoint.longi_d));
+  d3.select(this).attr('cx',d.pos.x).attr('cy',d.pos.y);
+}
+
+var mapreset = function()
+{
+  var bounds = map.getBounds();
+  var topLeft = map.latLngToLayerPoint(bounds.getNorthWest());
+  var bottomRight = map.latLngToLayerPoint(bounds.getSouthEast());
+
+  svg.attr("width", bottomRight.x - topLeft.x)
+    .attr("height", bottomRight.y - topLeft.y)
+    .style("left", topLeft.x + "px")
+    .style("top", topLeft.y + "px");
+
+  plotLayer.attr('transform', 'translate('+ -topLeft.x + ',' + -topLeft.y + ')');
+}
+map.on("move", mapreset);
+
+function opacity(data){
+    const corp = document.form1.corp;
+    if(min<=data.Sum && data.Sum<=max && ((data.JR=="True" && corp[0].checked) || (data.shitetsu=="True" && corp[1].checked)) && (!data.Station.Name.indexOf(staname) || !data.Station.Yomi.indexOf(staname)))return 0.7;
+    else return 0.02;
+};
+function select(data){
+    const corp = document.form1.corp;
+    if(min<=data.Sum && data.Sum<=max && ((data.JR=="True" && corp[0].checked) || (data.shitetsu=="True" && corp[1].checked)) && (!data.Station.Name.indexOf(staname) || !data.Station.Yomi.indexOf(staname)))return "true";
+    else return "false";
+};
+
+function set() {
+    max = Number(document.getElementById("max").value);
+    if(document.getElementById("max").value=="") max=10000;
+    min = Number(document.getElementById("min").value);
+    staname = document.getElementById("name").value;
+    plotLayer.selectAll("circle").attr('fill-opacity', function(d) {return opacity(d);})
+    .attr('stroke-opacity', function(d) {return opacity(d);})
+    .attr("selected", function(d) {return select(d);});
+};
+
+function statereset() {
+    min=0;
+    max=10000;
+    console.log(max);
+    plotLayer.selectAll("circle").attr('fill-opacity', 0.7)
+    .attr('stroke-opacity', 0.7);
+};
+
+</script>
+</body></html>
