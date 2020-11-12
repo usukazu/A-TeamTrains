@@ -2,8 +2,7 @@ function ShowTimeGraph(dataset,　Line){
     var svg = d3.select("body").append("svg")
     .attr("width", 2000)
     .attr("height", 300)
-    .attr("x",0)
-    .attr("y",0);
+    .attr("id","TimeGraph");
 
     //console.log(dataset);
     var TimeTable = dataset;
@@ -39,7 +38,7 @@ tt_num=text2.text(function(d,i){return d.number})
 .attr("y",function(d,i) { return 195 - d.number * 5; })
     
 svg.data(TimeTable).append("text")
-    .attr("x",width/2)
+    .attr("x",1000)
     .attr("y", 16)
     .text(function(d,i){return "時間帯別 "+Line});
 

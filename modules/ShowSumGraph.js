@@ -1,7 +1,8 @@
 function ShowSumGraph(data, Station){
     var svg = d3.select("body").append("svg")
     .attr("width", 2000)
-    .attr("height", 400);
+    .attr("height", 400)
+    .attr("id","SumGraph");
     console.log(data);
     var box = svg.selectAll("rect")
     .data(data.Sum)
@@ -28,7 +29,8 @@ function ShowSumGraph(data, Station){
     .attr("transform", "rotate(30)")
     .text(function(d,i) { return d.Line;})
     .on("click",function(mouse,d,i){
-        d3.selectAll("svg").remove();
+        d3.select("#SumGraph").remove();
+        d3.select("#TimeGraph").remove();
         var selected = d.HourTable;
         var selectedLine = d.Line;
    console.log(d.HourTable);

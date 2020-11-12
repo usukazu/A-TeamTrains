@@ -38,8 +38,8 @@ var map = new L.Map(d3.select('div').node()).setView([35.678707, 139.739143], 12
 var tile = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
   attribution : '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
-var svg = d3.select(map.getPanes().overlayPane).append('svg').attr('class', 'leaflet-zoom-hide');
-var plotLayer = svg.append('g');
+var svg1 = d3.select(map.getPanes().overlayPane).append('svg').attr('class', 'leaflet-zoom-hide');
+var plotLayer = svg1.append('g');
 var tooltip = d3.select("body").append("div").attr("class", "tooltip");
 var max = 10000;
 var min = 0;
@@ -75,7 +75,8 @@ async function SelectStation(data){
         console.log(dataPath);
         d3.json(dataPath).then(function(data){
             console.log(data);
-            SelectLine(data);
+            ShowTimeGraph(d.HourTable, data.Station);
+            ShowSumGraph(data, data.Station);
         })
     })
     .on("mouseover", function(event,d) {
@@ -112,7 +113,7 @@ var mapreset = function()
   var topLeft = map.latLngToLayerPoint(bounds.getNorthWest());
   var bottomRight = map.latLngToLayerPoint(bounds.getSouthEast());
 
-  svg.attr("width", bottomRight.x - topLeft.x)
+  svg1.attr("width", bottomRight.x - topLeft.x)
     .attr("height", bottomRight.y - topLeft.y)
     .style("left", topLeft.x + "px")
     .style("top", topLeft.y + "px");
