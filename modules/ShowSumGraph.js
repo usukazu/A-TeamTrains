@@ -1,4 +1,14 @@
 function ShowSumGraph(data, Station){
+    // var SumTable = data.Sum;
+    // var SumTableSize = SumTable.length;
+    // //console.log(TimeTableSize);
+    // for (let i=0; i < SumTableSize; i+=1){
+    //     var tmp = 
+    //     if(SumTable[i].number > max_num){
+            
+    //         max_num = SumTable[i].number;
+    //     }
+    // }
     var svg = d3.select("body").append("svg")
     .attr("width", 2000)
     .attr("height", 400)
@@ -16,7 +26,7 @@ function ShowSumGraph(data, Station){
         .attr("fill","blue");
         
     
-    var text1 = svg.selectAll("text1")
+var text1 = svg.selectAll("text1")
     .data(data.Linelist)
     .enter()
     .append("text")
@@ -35,9 +45,30 @@ function ShowSumGraph(data, Station){
         var selectedLine = d.Line;
    console.log(d.HourTable);
             ShowTimeGraph(selected,selectedLine);
+            BackButton(selected, data, selectedLine);
    });
 
     svg.append("text").text("路線方面別 "+ Station)
     .attr("x",80)
     .attr("y",50);
+}
+
+function BackButton(TimeTable,data, Station){
+    var svg = d3.select("body").append("svg")
+    .attr("width", 2000)
+    .attr("height", 100)
+    .attr("id","BackButton");
+
+    var backText = svg.append("text")
+                    .text("戻る")
+                    .attr("x", 50)
+                    .attr("y", 20)
+                    .on("click",function(mouse,d){
+                        d3.select("#SumGraph").remove();
+                        d3.select("#TimeGraph").remove();
+                        ShowTimeGraph(TimeTable,Station);
+                        ShowSumGraph(data);
+
+                    });
+           
 }
