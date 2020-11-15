@@ -72,6 +72,7 @@ async function SelectStation(data){
     //console.log(d.Station.code);
         d3.select("#SumGraph").remove();
         d3.select("#TimeGraph").remove();
+        d3.select("#BackButton").remove();
         var code = d.Station.code;
         var dataPath = "./kanagawa/s"+code+".json";
         console.log(dataPath);

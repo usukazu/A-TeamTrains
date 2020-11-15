@@ -1,21 +1,29 @@
 function ShowTimeGraph(dataset,　Line){
-    var TimeTable = dataset;
-    var TimeTableSize = TimeTable.length;
-    console.log(TimeTableSize);
+    const TimeTable = dataset;
     
-var max_num = 0;
-for (let i=0; i < 24; i+=1){
-    var tmp = TimeTable[i]
-    if(tmp.number > max_num){
-        max_num = tmp.number;
-    }
-}   
-console.log(max_num);
-    var TimeGraphScale = d3.scaleLinear()
+    //console.log(TimeTableSize);
+    
+const chooseMax = (TimeTable) => {
+    const TimeTableSize = TimeTable.length;
+    console.log("size", TimeTableSize);
+    let tmp_max = 0;
+    for (let i=0; i < TimeTableSize; i++){
+    
+    let tmp = TimeTable[i].number
+    console.log(tmp);
+        tmp_max = Math.max(tmp_max , tmp);
+        console.log(i, ",", tmp_max);
+
+}
+return tmp_max;
+} 
+const max_num = chooseMax(TimeTable) ;
+
+    const TimeGraphScale = d3.scaleLinear()
                             .domain([0,max_num])
                             .range([0,200]);
-                            console.log(TimeGraphScale(20))
-    var svg = d3.select("body").append("svg")
+
+var svg = d3.select("body").append("svg")
     .attr("width", 2000)
     .attr("height", 400)
     .attr("id","TimeGraph");
@@ -32,7 +40,6 @@ console.log(max_num);
     
     //console.log(dataset);
     
-   
     bar.attr("x", function(d, i) { return i * 40 + 20; })
     .attr("width", 20)
     .attr("y", function(d,i) { return 300 - Math.floor(TimeGraphScale(d.number)); })
@@ -49,7 +56,7 @@ console.log(max_num);
     .attr("y", 320);
 
 var text2 = svg.selectAll("text2").data(TimeTable).enter().append("text");
-tt_num=text2.text(function(d,i){return d.number;})
+tt_num = text2.text(function(d,i){return d.number;})
 .attr("x", function(d, i) { return (i*40) + 25;})
 .attr("y",function(d,i) { return 295 - TimeGraphScale(d.number); })
     
@@ -60,7 +67,3 @@ var GraphTitle = text3
     .text(function(d,i){return "時間帯別 "+Line+"駅"});
 }
 
-async function culc_max(TimeTable){
-    
-    
-}
