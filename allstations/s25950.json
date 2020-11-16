@@ -1,0 +1,1121 @@
+{
+    "Station": "桜ノ宮",
+    "Sum": [
+        {
+            "Line": "ＪＲ大阪環状線外回り京橋・鶴橋方面",
+            "number": "316",
+            "LineColor": "000,000,255",
+            "Kindlist": [
+                {
+                    "Kindname": "普通",
+                    "Kindnum": "202"
+                },
+                {
+                    "Kindname": "紀州路快速",
+                    "Kindnum": "52"
+                },
+                {
+                    "Kindname": "関空快速",
+                    "Kindnum": "50"
+                },
+                {
+                    "Kindname": "直通快速",
+                    "Kindnum": "12"
+                }
+            ]
+        },
+        {
+            "Line": "ＪＲ大阪環状線内回り大阪・西九条方面",
+            "number": "314",
+            "LineColor": "000,000,255",
+            "Kindlist": [
+                {
+                    "Kindname": "普通",
+                    "Kindnum": "199"
+                },
+                {
+                    "Kindname": "関空快速",
+                    "Kindnum": "57"
+                },
+                {
+                    "Kindname": "紀州路快速",
+                    "Kindnum": "53"
+                },
+                {
+                    "Kindname": "快速",
+                    "Kindnum": "5"
+                }
+            ]
+        }
+    ],
+    "Linelist": [
+        {
+            "Line": "ＪＲ大阪環状線外回り京橋・鶴橋方面",
+            "Linecode": "7201",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "紀州路快速",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "関空快速",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "直通快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "4",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "紀州路快速",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "関空快速",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "直通快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "5",
+                    "number": "4",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "紀州路快速",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "関空快速",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "直通快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "6",
+                    "number": "9",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "9"
+                        },
+                        {
+                            "Kindname": "紀州路快速",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "関空快速",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "直通快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "7",
+                    "number": "14",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "10"
+                        },
+                        {
+                            "Kindname": "紀州路快速",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "関空快速",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "直通快速",
+                            "Kindnum": "4"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "8",
+                    "number": "19",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "12"
+                        },
+                        {
+                            "Kindname": "紀州路快速",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "関空快速",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "直通快速",
+                            "Kindnum": "7"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "9",
+                    "number": "20",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "15"
+                        },
+                        {
+                            "Kindname": "紀州路快速",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "関空快速",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "直通快速",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "10",
+                    "number": "20",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "13"
+                        },
+                        {
+                            "Kindname": "紀州路快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "関空快速",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "直通快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "11",
+                    "number": "19",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "12"
+                        },
+                        {
+                            "Kindname": "紀州路快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "関空快速",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "直通快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "12",
+                    "number": "17",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "10"
+                        },
+                        {
+                            "Kindname": "紀州路快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "関空快速",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "直通快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "13",
+                    "number": "16",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "8"
+                        },
+                        {
+                            "Kindname": "紀州路快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "関空快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "直通快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "14",
+                    "number": "16",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "8"
+                        },
+                        {
+                            "Kindname": "紀州路快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "関空快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "直通快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "15",
+                    "number": "16",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "8"
+                        },
+                        {
+                            "Kindname": "紀州路快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "関空快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "直通快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "16",
+                    "number": "15",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "9"
+                        },
+                        {
+                            "Kindname": "紀州路快速",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "関空快速",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "直通快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "17",
+                    "number": "18",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "12"
+                        },
+                        {
+                            "Kindname": "紀州路快速",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "関空快速",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "直通快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "18",
+                    "number": "20",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "12"
+                        },
+                        {
+                            "Kindname": "紀州路快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "関空快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "直通快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "19",
+                    "number": "20",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "12"
+                        },
+                        {
+                            "Kindname": "紀州路快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "関空快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "直通快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "20",
+                    "number": "20",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "12"
+                        },
+                        {
+                            "Kindname": "紀州路快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "関空快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "直通快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "21",
+                    "number": "20",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "12"
+                        },
+                        {
+                            "Kindname": "紀州路快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "関空快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "直通快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "22",
+                    "number": "14",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "10"
+                        },
+                        {
+                            "Kindname": "紀州路快速",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "関空快速",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "直通快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "23",
+                    "number": "12",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "9"
+                        },
+                        {
+                            "Kindname": "紀州路快速",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "関空快速",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "直通快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "24",
+                    "number": "6",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "紀州路快速",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "関空快速",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "直通快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "25",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "紀州路快速",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "関空快速",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "直通快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "26",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "紀州路快速",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "関空快速",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "直通快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Line": "ＪＲ大阪環状線内回り大阪・西九条方面",
+            "Linecode": "7200",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "関空快速",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "紀州路快速",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "4",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "関空快速",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "紀州路快速",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "5",
+                    "number": "8",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "6"
+                        },
+                        {
+                            "Kindname": "関空快速",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "紀州路快速",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "6",
+                    "number": "13",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "10"
+                        },
+                        {
+                            "Kindname": "関空快速",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "紀州路快速",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "7",
+                    "number": "18",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "14"
+                        },
+                        {
+                            "Kindname": "関空快速",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "紀州路快速",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "8",
+                    "number": "20",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "16"
+                        },
+                        {
+                            "Kindname": "関空快速",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "紀州路快速",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "9",
+                    "number": "19",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "11"
+                        },
+                        {
+                            "Kindname": "関空快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "紀州路快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "10",
+                    "number": "19",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "13"
+                        },
+                        {
+                            "Kindname": "関空快速",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "紀州路快速",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "11",
+                    "number": "20",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "12"
+                        },
+                        {
+                            "Kindname": "関空快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "紀州路快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "12",
+                    "number": "16",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "8"
+                        },
+                        {
+                            "Kindname": "関空快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "紀州路快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "13",
+                    "number": "16",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "8"
+                        },
+                        {
+                            "Kindname": "関空快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "紀州路快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "14",
+                    "number": "16",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "8"
+                        },
+                        {
+                            "Kindname": "関空快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "紀州路快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "15",
+                    "number": "16",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "8"
+                        },
+                        {
+                            "Kindname": "関空快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "紀州路快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "16",
+                    "number": "20",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "12"
+                        },
+                        {
+                            "Kindname": "関空快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "紀州路快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "17",
+                    "number": "20",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "12"
+                        },
+                        {
+                            "Kindname": "関空快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "紀州路快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "18",
+                    "number": "20",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "12"
+                        },
+                        {
+                            "Kindname": "関空快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "紀州路快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "19",
+                    "number": "19",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "12"
+                        },
+                        {
+                            "Kindname": "関空快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "紀州路快速",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "20",
+                    "number": "18",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "12"
+                        },
+                        {
+                            "Kindname": "関空快速",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "紀州路快速",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "21",
+                    "number": "13",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "9"
+                        },
+                        {
+                            "Kindname": "関空快速",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "紀州路快速",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "22",
+                    "number": "11",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "6"
+                        },
+                        {
+                            "Kindname": "関空快速",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "紀州路快速",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "23",
+                    "number": "8",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "6"
+                        },
+                        {
+                            "Kindname": "関空快速",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "紀州路快速",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "2"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "24",
+                    "number": "3",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "関空快速",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "紀州路快速",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "25",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "関空快速",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "紀州路快速",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "26",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "関空快速",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "紀州路快速",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
