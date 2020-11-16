@@ -1,3 +1,5 @@
+var tooltip = d3.select("body").append("div").attr("class", "tooltip");
+
 function ShowTimeGraph(dataset,　Line){
     const TimeTable = dataset;
     
@@ -5,14 +7,14 @@ function ShowTimeGraph(dataset,　Line){
     
 const chooseMax = (TimeTable) => {
     const TimeTableSize = TimeTable.length;
-    console.log("size", TimeTableSize);
-    let tmp_max = 0;
+    //console.log("size", TimeTableSize);
+    let tmp_max = 1;
     for (let i=0; i < TimeTableSize; i++){
     
     let tmp = TimeTable[i].number
-    console.log(tmp);
+    //console.log(tmp);
         tmp_max = Math.max(tmp_max , tmp);
-        console.log(i, ",", tmp_max);
+        //console.log(i, ",", tmp_max);
 
 }
 return tmp_max;
@@ -30,7 +32,6 @@ var svg = d3.select("body").append("svg")
 
     //console.log(dataset);
     
-    
     //var MaxTimeData= d3.max(TimeTable, function(d){return d.number});
     //console.log(MaxTimeData);
     var bar = svg.selectAll("rect")
@@ -44,7 +45,24 @@ var svg = d3.select("body").append("svg")
     .attr("width", 20)
     .attr("y", function(d,i) { return 300 - Math.floor(TimeGraphScale(d.number)); })
     .attr("height", function(d,i) { return Math.floor(TimeGraphScale(d.number));})
-    .attr("fill","green");
+    .attr("fill","green")
+    .on("mouseover", function(event,d) {
+        if(d.Kindlist){
+        tooltip
+        .style("visibility", "visible")
+        .html(intooltip(d.Kindlist));
+        }
+    })
+    .on("mousemove", function(event,d) {
+        if(d.Kindlist){
+        tooltip
+        .style("top", (event.pageY - 20) + "px")
+        .style("left", (event.pageX + 10) + "px");
+        }
+    })
+    .on("mouseout", function(d) {
+        tooltip.style("visibility", "hidden");
+    });
     
     var text = svg.selectAll("text")
     .data(TimeTable)
@@ -60,10 +78,22 @@ tt_num = text2.text(function(d,i){return d.number;})
 .attr("x", function(d, i) { return (i*40) + 25;})
 .attr("y",function(d,i) { return 295 - TimeGraphScale(d.number); })
     
-var text3 = svg.selectAll("text3").data(TimeTable).enter().append("text");
+var text3 = svg.append("text");
 var GraphTitle = text3
-    .attr("x",500)
+    .attr("x",80)
     .attr("y", 50)
-    .text(function(d,i){return "時間帯別 "+Line+"駅"});
+    .text(check(TimeTable,Line));
 }
 
+function intooltip(list){
+    var mojiretsu="";
+    for (var i=0; i<list.length; i++){
+        mojiretsu+=list[i].Kindname+":"+list[i].Kindnum+"<br>";
+    }
+    return mojiretsu;
+};
+
+function check(Table,Line){
+    if("Kindlist" in Table[0])return "時間帯別 "+Line;
+    else return "時間帯別 "+Line+"駅";
+}

@@ -19,13 +19,40 @@
         <title>D3 Test</title>
         <script src="./lib/d3/d3.js" charset="utf-8"></script>
         <!-- <script src="./modules/SelectStation.js" charset="utf-8"></script> -->
-        <script src="./modules/SelectLine.js" charset="utf-8"></script>
+        <!-- <script src="./modules/SelectLine.js" charset="utf-8"></script> -->
         <script src="./modules/ShowTimeGraph.js" charset="utf-8"></script>
         <script src="./modules/ShowSumGraph.js" charset="utf-8"></script>
     </head>
 <body>
     <form name="form1">
-        <p>本数下限：
+        <p><select id="time">
+            <option value="-1">一日</option>
+            <option value="0">3時台</option>
+            <option value="1">4時台</option>
+            <option value="2">5時台</option>
+            <option value="3">6時台</option>
+            <option value="4">7時台</option>
+            <option value="5">8時台</option>
+            <option value="6">9時台</option>
+            <option value="7">10時台</option>
+            <option value="8">11時台</option>
+            <option value="9">12時台</option>
+            <option value="10">13時台</option>
+            <option value="11">14時台</option>
+            <option value="12">15時台</option>
+            <option value="13">16時台</option>
+            <option value="14">17時台</option>
+            <option value="15">18時台</option>
+            <option value="16">19時台</option>
+            <option value="17">20時台</option>
+            <option value="18">21時台</option>
+            <option value="19">22時台</option>
+            <option value="20">23時台</option>
+            <option value="21">24時台</option>
+            <option value="22">25時台</option>
+            <option value="23">26時台</option>
+        </select>
+        本数下限：
         <input type="text" id="min">
         本数上限：
         <input type="text" id="max"></p>
@@ -50,9 +77,11 @@ var min = 0;
 var width = 800;
 var height = 800;
 var staname = "";
+var timemode = "-1";
 
 var dataset;
-var path = "./fukushimaall/date20201117.json";
+var selectdata;
+var path = "./allstations/date20201117.json";
 d3.json(path).then( function(data) {
     let stationData = data.Stationlist;
     SelectStation(stationData);
@@ -60,7 +89,7 @@ d3.json(path).then( function(data) {
 
 async function SelectStation(data){
     var fill = d3.scaleLog()
-    .domain([10, 200, 4000])
+    .domain([10, 150, 3000])
     .range(["blue","yellow", "red"]);
 
     circle = plotLayer
@@ -79,15 +108,19 @@ async function SelectStation(data){
     .on("click",function(mouse,d){
         d3.select("#SumGraph").remove();
         d3.select("#TimeGraph").remove();
-        d3.select("#BackButton").remove();
         if(d3.select(this).attr("selected")=="true"){
-            map.setView([d.GeoPoint.lati_d, d.GeoPoint.longi_d], 12);
+            if (selectdata!=null){
+                selectdata.attr('r', function(d) {return opacity(d);}).attr('fill-opacity', 0.7);
+            }
+            selectdata = d3.select(this);
+            d3.select(this).attr('r', 8).attr('fill-opacity', 0.9);
+            map.setView([d.GeoPoint.lati_d, d.GeoPoint.longi_d]);
             var code = d.Station.code;
-            var dataPath = "./fukushimaall/s"+code+".json";
+            var dataPath = "./allstations/s"+code+".json";
             d3.json(dataPath).then(function(data){
-                console.log(data);
+                //console.log(data);
                 ShowTimeGraph(d.HourTable, data.Station);
-                ShowSumGraph(data, data.Station);
+                ShowSumGraph(d.HourTable,data, data.Station);
             })
         }
     })
@@ -140,14 +173,22 @@ var mapreset = function()
 }
 map.on("move", mapreset);
 
+function time(data,time){
+    if(time==-1)return data.Sum;
+    else{
+        return data.HourTable[Number(time)].number;
+    }
+};
 function opacity(data){
+    var datasum = time(data,timemode);
     const corp = document.form1.corp;
-    if(min<=data.Sum && data.Sum<=max && ((data.JR=="True" && corp[0].checked) || (data.shitetsu=="True" && corp[1].checked)) && (!data.Station.Name.indexOf(staname) || !data.Station.Yomi.indexOf(staname)))return 0.7;
-    else return 0.02;
+    if(min<=datasum && datasum<=max && ((data.JR=="True" && corp[0].checked) || (data.shitetsu=="True" && corp[1].checked)) && (!data.Station.Name.indexOf(staname) || !data.Station.Yomi.indexOf(staname)))return 5;
+    else return 0;
 };
 function select(data){
+    var datasum = time(data,timemode);
     const corp = document.form1.corp;
-    if(min<=data.Sum && data.Sum<=max && ((data.JR=="True" && corp[0].checked) || (data.shitetsu=="True" && corp[1].checked)) && (!data.Station.Name.indexOf(staname) || !data.Station.Yomi.indexOf(staname)))return "true";
+    if(min<=datasum && datasum<=max && ((data.JR=="True" && corp[0].checked) || (data.shitetsu=="True" && corp[1].checked)) && (!data.Station.Name.indexOf(staname) || !data.Station.Yomi.indexOf(staname)))return "true";
     else return "false";
 };
 
@@ -156,17 +197,15 @@ function set() {
     if(document.getElementById("max").value=="") max=10000;
     min = Number(document.getElementById("min").value);
     staname = document.getElementById("name").value;
-    plotLayer.selectAll("circle").attr('fill-opacity', function(d) {return opacity(d);})
-    .attr('stroke-opacity', function(d) {return opacity(d);})
+    timemode = document.getElementById("time").value;
+    plotLayer.selectAll("circle").attr('r', function(d) {return opacity(d);})
     .attr("selected", function(d) {return select(d);});
 };
 
 function statereset() {
     min=0;
     max=10000;
-    console.log(max);
-    plotLayer.selectAll("circle").attr('fill-opacity', 0.7)
-    .attr('stroke-opacity', 0.7);
+    plotLayer.selectAll("circle").attr('r', 5).attr('fill-opacity', 0.7).attr("selected", "true");
 };
 
 </script>
