@@ -79,6 +79,7 @@ async function SelectStation(data){
     .on("click",function(mouse,d){
         d3.select("#SumGraph").remove();
         d3.select("#TimeGraph").remove();
+        d3.select("#BackButton").remove();
         if(d3.select(this).attr("selected")=="true"){
             map.setView([d.GeoPoint.lati_d, d.GeoPoint.longi_d], 12);
             var code = d.Station.code;
