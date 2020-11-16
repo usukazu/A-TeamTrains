@@ -108,6 +108,7 @@ async function SelectStation(data){
     .on("click",function(mouse,d){
         d3.select("#SumGraph").remove();
         d3.select("#TimeGraph").remove();
+        d3.select("#BackButton").remove();
         if(d3.select(this).attr("selected")=="true"){
             if (selectdata!=null){
                 selectdata.attr('r', function(d) {return opacity(d);}).attr('fill-opacity', 0.7);
