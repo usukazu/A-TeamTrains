@@ -1,0 +1,621 @@
+{
+    "Station": "安芸長浜",
+    "Sum": [
+        {
+            "Line": "ＪＲ呉線広・広島方面",
+            "number": "20",
+            "LineColor": "240,145,025",
+            "Kindlist": [
+                {
+                    "Kindname": "普通",
+                    "Kindnum": "19"
+                },
+                {
+                    "Kindname": "快速",
+                    "Kindnum": "1"
+                }
+            ]
+        },
+        {
+            "Line": "ＪＲ呉線糸崎・三原方面",
+            "number": "21",
+            "LineColor": "240,145,025",
+            "Kindlist": [
+                {
+                    "Kindname": "普通",
+                    "Kindnum": "21"
+                }
+            ]
+        }
+    ],
+    "Linelist": [
+        {
+            "Line": "ＪＲ呉線広・広島方面",
+            "Linecode": "2091",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "4",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "5",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "6",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "7",
+                    "number": "2",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "8",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "9",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "10",
+                    "number": "2",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "11",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "12",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "13",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "14",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "15",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "16",
+                    "number": "2",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "17",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "18",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "19",
+                    "number": "2",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "20",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "21",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "22",
+                    "number": "2",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "23",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "24",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "25",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "26",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Line": "ＪＲ呉線糸崎・三原方面",
+            "Linecode": "2090",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "4",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "5",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "6",
+                    "number": "2",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "2"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "7",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "8",
+                    "number": "2",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "2"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "9",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "10",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "11",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "12",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "13",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "14",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "15",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "16",
+                    "number": "2",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "2"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "17",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "18",
+                    "number": "2",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "2"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "19",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "20",
+                    "number": "2",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "2"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "21",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "22",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "23",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "24",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "25",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "26",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,978 @@
+{
+    "Station": "千葉みなと",
+    "Sum": [
+        {
+            "Line": "ＪＲ京葉線蘇我・上総一ノ宮方面",
+            "number": "123",
+            "LineColor": "220,050,085",
+            "Kindlist": [
+                {
+                    "Kindname": "各駅停車",
+                    "Kindnum": "78"
+                },
+                {
+                    "Kindname": "快速",
+                    "Kindnum": "45"
+                }
+            ]
+        },
+        {
+            "Line": "ＪＲ京葉線東京・新習志野方面",
+            "number": "119",
+            "LineColor": "220,050,085",
+            "Kindlist": [
+                {
+                    "Kindname": "各駅停車",
+                    "Kindnum": "80"
+                },
+                {
+                    "Kindname": "快速",
+                    "Kindnum": "39"
+                }
+            ]
+        },
+        {
+            "Line": "千葉都市モノレール１号線千城台・県庁前方面",
+            "number": "181",
+            "LineColor": "006,061,255",
+            "Kindlist": [
+                {
+                    "Kindname": "普通",
+                    "Kindnum": "181"
+                }
+            ]
+        }
+    ],
+    "Linelist": [
+        {
+            "Line": "ＪＲ京葉線蘇我・上総一ノ宮方面",
+            "Linecode": "951",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "各駅停車",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "4",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "各駅停車",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "5",
+                    "number": "5",
+                    "Kindlist": [
+                        {
+                            "Kindname": "各駅停車",
+                            "Kindnum": "5"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "6",
+                    "number": "6",
+                    "Kindlist": [
+                        {
+                            "Kindname": "各駅停車",
+                            "Kindnum": "6"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "7",
+                    "number": "9",
+                    "Kindlist": [
+                        {
+                            "Kindname": "各駅停車",
+                            "Kindnum": "7"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "2"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "8",
+                    "number": "11",
+                    "Kindlist": [
+                        {
+                            "Kindname": "各駅停車",
+                            "Kindnum": "11"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "9",
+                    "number": "7",
+                    "Kindlist": [
+                        {
+                            "Kindname": "各駅停車",
+                            "Kindnum": "5"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "2"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "10",
+                    "number": "5",
+                    "Kindlist": [
+                        {
+                            "Kindname": "各駅停車",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "3"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "11",
+                    "number": "4",
+                    "Kindlist": [
+                        {
+                            "Kindname": "各駅停車",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "3"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "12",
+                    "number": "4",
+                    "Kindlist": [
+                        {
+                            "Kindname": "各駅停車",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "3"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "13",
+                    "number": "4",
+                    "Kindlist": [
+                        {
+                            "Kindname": "各駅停車",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "3"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "14",
+                    "number": "4",
+                    "Kindlist": [
+                        {
+                            "Kindname": "各駅停車",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "3"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "15",
+                    "number": "4",
+                    "Kindlist": [
+                        {
+                            "Kindname": "各駅停車",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "3"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "16",
+                    "number": "5",
+                    "Kindlist": [
+                        {
+                            "Kindname": "各駅停車",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "2"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "17",
+                    "number": "6",
+                    "Kindlist": [
+                        {
+                            "Kindname": "各駅停車",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "3"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "18",
+                    "number": "8",
+                    "Kindlist": [
+                        {
+                            "Kindname": "各駅停車",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "4"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "19",
+                    "number": "7",
+                    "Kindlist": [
+                        {
+                            "Kindname": "各駅停車",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "3"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "20",
+                    "number": "8",
+                    "Kindlist": [
+                        {
+                            "Kindname": "各駅停車",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "4"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "21",
+                    "number": "8",
+                    "Kindlist": [
+                        {
+                            "Kindname": "各駅停車",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "4"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "22",
+                    "number": "7",
+                    "Kindlist": [
+                        {
+                            "Kindname": "各駅停車",
+                            "Kindnum": "5"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "2"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "23",
+                    "number": "5",
+                    "Kindlist": [
+                        {
+                            "Kindname": "各駅停車",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "24",
+                    "number": "4",
+                    "Kindlist": [
+                        {
+                            "Kindname": "各駅停車",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "25",
+                    "number": "2",
+                    "Kindlist": [
+                        {
+                            "Kindname": "各駅停車",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "26",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "各駅停車",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Line": "ＪＲ京葉線東京・新習志野方面",
+            "Linecode": "950",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "各駅停車",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "4",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "各駅停車",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "5",
+                    "number": "4",
+                    "Kindlist": [
+                        {
+                            "Kindname": "各駅停車",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "6",
+                    "number": "8",
+                    "Kindlist": [
+                        {
+                            "Kindname": "各駅停車",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "4"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "7",
+                    "number": "10",
+                    "Kindlist": [
+                        {
+                            "Kindname": "各駅停車",
+                            "Kindnum": "10"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "8",
+                    "number": "9",
+                    "Kindlist": [
+                        {
+                            "Kindname": "各駅停車",
+                            "Kindnum": "8"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "9",
+                    "number": "8",
+                    "Kindlist": [
+                        {
+                            "Kindname": "各駅停車",
+                            "Kindnum": "5"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "3"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "10",
+                    "number": "4",
+                    "Kindlist": [
+                        {
+                            "Kindname": "各駅停車",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "3"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "11",
+                    "number": "4",
+                    "Kindlist": [
+                        {
+                            "Kindname": "各駅停車",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "3"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "12",
+                    "number": "4",
+                    "Kindlist": [
+                        {
+                            "Kindname": "各駅停車",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "3"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "13",
+                    "number": "4",
+                    "Kindlist": [
+                        {
+                            "Kindname": "各駅停車",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "3"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "14",
+                    "number": "4",
+                    "Kindlist": [
+                        {
+                            "Kindname": "各駅停車",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "3"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "15",
+                    "number": "4",
+                    "Kindlist": [
+                        {
+                            "Kindname": "各駅停車",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "2"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "16",
+                    "number": "6",
+                    "Kindlist": [
+                        {
+                            "Kindname": "各駅停車",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "2"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "17",
+                    "number": "6",
+                    "Kindlist": [
+                        {
+                            "Kindname": "各駅停車",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "3"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "18",
+                    "number": "6",
+                    "Kindlist": [
+                        {
+                            "Kindname": "各駅停車",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "3"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "19",
+                    "number": "8",
+                    "Kindlist": [
+                        {
+                            "Kindname": "各駅停車",
+                            "Kindnum": "5"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "3"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "20",
+                    "number": "7",
+                    "Kindlist": [
+                        {
+                            "Kindname": "各駅停車",
+                            "Kindnum": "5"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "2"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "21",
+                    "number": "6",
+                    "Kindlist": [
+                        {
+                            "Kindname": "各駅停車",
+                            "Kindnum": "5"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "22",
+                    "number": "8",
+                    "Kindlist": [
+                        {
+                            "Kindname": "各駅停車",
+                            "Kindnum": "8"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "23",
+                    "number": "5",
+                    "Kindlist": [
+                        {
+                            "Kindname": "各駅停車",
+                            "Kindnum": "5"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "24",
+                    "number": "3",
+                    "Kindlist": [
+                        {
+                            "Kindname": "各駅停車",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "25",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "各駅停車",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "26",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "各駅停車",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Line": "千葉都市モノレール１号線千城台・県庁前方面",
+            "Linecode": "4831",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "4",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "5",
+                    "number": "2",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "2"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "6",
+                    "number": "11",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "11"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "7",
+                    "number": "13",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "13"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "8",
+                    "number": "14",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "14"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "9",
+                    "number": "10",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "10"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "10",
+                    "number": "9",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "9"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "11",
+                    "number": "9",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "9"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "12",
+                    "number": "9",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "9"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "13",
+                    "number": "9",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "9"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "14",
+                    "number": "9",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "9"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "15",
+                    "number": "9",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "9"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "16",
+                    "number": "10",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "10"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "17",
+                    "number": "10",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "10"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "18",
+                    "number": "10",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "10"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "19",
+                    "number": "10",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "10"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "20",
+                    "number": "9",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "9"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "21",
+                    "number": "10",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "10"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "22",
+                    "number": "9",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "9"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "23",
+                    "number": "8",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "8"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "24",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "25",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "26",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,721 @@
+{
+    "Station": "大船渡魚市場前",
+    "Sum": [
+        {
+            "Line": "ＪＲ大船渡線ＢＲＴ盛方面",
+            "number": "27",
+            "LineColor": "230,000,020",
+            "Kindlist": [
+                {
+                    "Kindname": "ＢＲＴ",
+                    "Kindnum": "19"
+                },
+                {
+                    "Kindname": "ＢＲＴ快速",
+                    "Kindnum": "8"
+                }
+            ]
+        },
+        {
+            "Line": "ＪＲ大船渡線ＢＲＴ気仙沼・陸前矢作方面",
+            "number": "26",
+            "LineColor": "230,000,020",
+            "Kindlist": [
+                {
+                    "Kindname": "ＢＲＴ",
+                    "Kindnum": "18"
+                },
+                {
+                    "Kindname": "ＢＲＴ快速",
+                    "Kindnum": "8"
+                }
+            ]
+        }
+    ],
+    "Linelist": [
+        {
+            "Line": "ＪＲ大船渡線ＢＲＴ盛方面",
+            "Linecode": "7751",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "ＢＲＴ",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "ＢＲＴ快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "4",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "ＢＲＴ",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "ＢＲＴ快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "5",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "ＢＲＴ",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "ＢＲＴ快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "6",
+                    "number": "2",
+                    "Kindlist": [
+                        {
+                            "Kindname": "ＢＲＴ",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "ＢＲＴ快速",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "7",
+                    "number": "3",
+                    "Kindlist": [
+                        {
+                            "Kindname": "ＢＲＴ",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "ＢＲＴ快速",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "8",
+                    "number": "3",
+                    "Kindlist": [
+                        {
+                            "Kindname": "ＢＲＴ",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "ＢＲＴ快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "9",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "ＢＲＴ",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "ＢＲＴ快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "10",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "ＢＲＴ",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "ＢＲＴ快速",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "11",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "ＢＲＴ",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "ＢＲＴ快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "12",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "ＢＲＴ",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "ＢＲＴ快速",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "13",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "ＢＲＴ",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "ＢＲＴ快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "14",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "ＢＲＴ",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "ＢＲＴ快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "15",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "ＢＲＴ",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "ＢＲＴ快速",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "16",
+                    "number": "2",
+                    "Kindlist": [
+                        {
+                            "Kindname": "ＢＲＴ",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "ＢＲＴ快速",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "17",
+                    "number": "2",
+                    "Kindlist": [
+                        {
+                            "Kindname": "ＢＲＴ",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "ＢＲＴ快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "18",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "ＢＲＴ",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "ＢＲＴ快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "19",
+                    "number": "3",
+                    "Kindlist": [
+                        {
+                            "Kindname": "ＢＲＴ",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "ＢＲＴ快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "20",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "ＢＲＴ",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "ＢＲＴ快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "21",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "ＢＲＴ",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "ＢＲＴ快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "22",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "ＢＲＴ",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "ＢＲＴ快速",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "23",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "ＢＲＴ",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "ＢＲＴ快速",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "24",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "ＢＲＴ",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "ＢＲＴ快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "25",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "ＢＲＴ",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "ＢＲＴ快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "26",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "ＢＲＴ",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "ＢＲＴ快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Line": "ＪＲ大船渡線ＢＲＴ気仙沼・陸前矢作方面",
+            "Linecode": "7750",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "ＢＲＴ",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "ＢＲＴ快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "4",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "ＢＲＴ",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "ＢＲＴ快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "5",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "ＢＲＴ",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "ＢＲＴ快速",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "6",
+                    "number": "3",
+                    "Kindlist": [
+                        {
+                            "Kindname": "ＢＲＴ",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "ＢＲＴ快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "7",
+                    "number": "2",
+                    "Kindlist": [
+                        {
+                            "Kindname": "ＢＲＴ",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "ＢＲＴ快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "8",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "ＢＲＴ",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "ＢＲＴ快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "9",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "ＢＲＴ",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "ＢＲＴ快速",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "10",
+                    "number": "2",
+                    "Kindlist": [
+                        {
+                            "Kindname": "ＢＲＴ",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "ＢＲＴ快速",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "11",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "ＢＲＴ",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "ＢＲＴ快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "12",
+                    "number": "2",
+                    "Kindlist": [
+                        {
+                            "Kindname": "ＢＲＴ",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "ＢＲＴ快速",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "13",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "ＢＲＴ",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "ＢＲＴ快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "14",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "ＢＲＴ",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "ＢＲＴ快速",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "15",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "ＢＲＴ",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "ＢＲＴ快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "16",
+                    "number": "2",
+                    "Kindlist": [
+                        {
+                            "Kindname": "ＢＲＴ",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "ＢＲＴ快速",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "17",
+                    "number": "2",
+                    "Kindlist": [
+                        {
+                            "Kindname": "ＢＲＴ",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "ＢＲＴ快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "18",
+                    "number": "3",
+                    "Kindlist": [
+                        {
+                            "Kindname": "ＢＲＴ",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "ＢＲＴ快速",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "19",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "ＢＲＴ",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "ＢＲＴ快速",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "20",
+                    "number": "2",
+                    "Kindlist": [
+                        {
+                            "Kindname": "ＢＲＴ",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "ＢＲＴ快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "21",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "ＢＲＴ",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "ＢＲＴ快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "22",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "ＢＲＴ",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "ＢＲＴ快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "23",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "ＢＲＴ",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "ＢＲＴ快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "24",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "ＢＲＴ",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "ＢＲＴ快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "25",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "ＢＲＴ",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "ＢＲＴ快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "26",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "ＢＲＴ",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "ＢＲＴ快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

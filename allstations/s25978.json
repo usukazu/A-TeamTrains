@@ -1,0 +1,3106 @@
+{
+    "Station": "新大阪",
+    "Sum": [
+        {
+            "Line": "ＪＲ東海道新幹線東京・名古屋方面",
+            "number": "142",
+            "LineColor": "051,102,255",
+            "Kindlist": [
+                {
+                    "Kindname": "のぞみ",
+                    "Kindnum": "95"
+                },
+                {
+                    "Kindname": "ひかり",
+                    "Kindnum": "30"
+                },
+                {
+                    "Kindname": "こだま",
+                    "Kindnum": "17"
+                }
+            ]
+        },
+        {
+            "Line": "ＪＲ山陽新幹線博多・広島方面",
+            "number": "105",
+            "LineColor": "051,102,255",
+            "Kindlist": [
+                {
+                    "Kindname": "のぞみ",
+                    "Kindnum": "51"
+                },
+                {
+                    "Kindname": "さくら",
+                    "Kindnum": "17"
+                },
+                {
+                    "Kindname": "ひかり",
+                    "Kindnum": "16"
+                },
+                {
+                    "Kindname": "こだま",
+                    "Kindnum": "13"
+                },
+                {
+                    "Kindname": "みずほ",
+                    "Kindnum": "8"
+                }
+            ]
+        },
+        {
+            "Line": "ＪＲおおさか東線久宝寺・奈良方面",
+            "number": "71",
+            "LineColor": "070,120,150",
+            "Kindlist": [
+                {
+                    "Kindname": "普通",
+                    "Kindnum": "67"
+                },
+                {
+                    "Kindname": "直通快速",
+                    "Kindnum": "4"
+                }
+            ]
+        },
+        {
+            "Line": "ＪＲ京都線姫路・西明石方面",
+            "number": "373",
+            "LineColor": "000,120,200",
+            "Kindlist": [
+                {
+                    "Kindname": "普通",
+                    "Kindnum": "157"
+                },
+                {
+                    "Kindname": "快速",
+                    "Kindnum": "75"
+                },
+                {
+                    "Kindname": "特急",
+                    "Kindnum": "72"
+                },
+                {
+                    "Kindname": "新快速",
+                    "Kindnum": "69"
+                }
+            ]
+        },
+        {
+            "Line": "ＪＲ京都線京都・高槻方面",
+            "number": "347",
+            "LineColor": "000,120,200",
+            "Kindlist": [
+                {
+                    "Kindname": "普通",
+                    "Kindnum": "157"
+                },
+                {
+                    "Kindname": "新快速",
+                    "Kindnum": "78"
+                },
+                {
+                    "Kindname": "快速",
+                    "Kindnum": "69"
+                },
+                {
+                    "Kindname": "特急",
+                    "Kindnum": "43"
+                }
+            ]
+        },
+        {
+            "Line": "OsakaMetro御堂筋線なかもず・天王寺方面",
+            "number": "286",
+            "LineColor": "255,000,012",
+            "Kindlist": [
+                {
+                    "Kindname": "普通",
+                    "Kindnum": "286"
+                }
+            ]
+        },
+        {
+            "Line": "OsakaMetro御堂筋線千里中央・江坂方面",
+            "number": "163",
+            "LineColor": "255,000,012",
+            "Kindlist": [
+                {
+                    "Kindname": "普通",
+                    "Kindnum": "163"
+                }
+            ]
+        }
+    ],
+    "Linelist": [
+        {
+            "Line": "ＪＲ東海道新幹線東京・名古屋方面",
+            "Linecode": "1340",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "のぞみ",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "ひかり",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "こだま",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "4",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "のぞみ",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "ひかり",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "こだま",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "5",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "のぞみ",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "ひかり",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "こだま",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "6",
+                    "number": "11",
+                    "Kindlist": [
+                        {
+                            "Kindname": "のぞみ",
+                            "Kindnum": "9"
+                        },
+                        {
+                            "Kindname": "ひかり",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "こだま",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "7",
+                    "number": "10",
+                    "Kindlist": [
+                        {
+                            "Kindname": "のぞみ",
+                            "Kindnum": "7"
+                        },
+                        {
+                            "Kindname": "ひかり",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "こだま",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "8",
+                    "number": "9",
+                    "Kindlist": [
+                        {
+                            "Kindname": "のぞみ",
+                            "Kindnum": "6"
+                        },
+                        {
+                            "Kindname": "ひかり",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "こだま",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "9",
+                    "number": "10",
+                    "Kindlist": [
+                        {
+                            "Kindname": "のぞみ",
+                            "Kindnum": "7"
+                        },
+                        {
+                            "Kindname": "ひかり",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "こだま",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "10",
+                    "number": "9",
+                    "Kindlist": [
+                        {
+                            "Kindname": "のぞみ",
+                            "Kindnum": "6"
+                        },
+                        {
+                            "Kindname": "ひかり",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "こだま",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "11",
+                    "number": "8",
+                    "Kindlist": [
+                        {
+                            "Kindname": "のぞみ",
+                            "Kindnum": "5"
+                        },
+                        {
+                            "Kindname": "ひかり",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "こだま",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "12",
+                    "number": "8",
+                    "Kindlist": [
+                        {
+                            "Kindname": "のぞみ",
+                            "Kindnum": "5"
+                        },
+                        {
+                            "Kindname": "ひかり",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "こだま",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "13",
+                    "number": "8",
+                    "Kindlist": [
+                        {
+                            "Kindname": "のぞみ",
+                            "Kindnum": "5"
+                        },
+                        {
+                            "Kindname": "ひかり",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "こだま",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "14",
+                    "number": "8",
+                    "Kindlist": [
+                        {
+                            "Kindname": "のぞみ",
+                            "Kindnum": "5"
+                        },
+                        {
+                            "Kindname": "ひかり",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "こだま",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "15",
+                    "number": "8",
+                    "Kindlist": [
+                        {
+                            "Kindname": "のぞみ",
+                            "Kindnum": "5"
+                        },
+                        {
+                            "Kindname": "ひかり",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "こだま",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "16",
+                    "number": "10",
+                    "Kindlist": [
+                        {
+                            "Kindname": "のぞみ",
+                            "Kindnum": "7"
+                        },
+                        {
+                            "Kindname": "ひかり",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "こだま",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "17",
+                    "number": "11",
+                    "Kindlist": [
+                        {
+                            "Kindname": "のぞみ",
+                            "Kindnum": "8"
+                        },
+                        {
+                            "Kindname": "ひかり",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "こだま",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "18",
+                    "number": "9",
+                    "Kindlist": [
+                        {
+                            "Kindname": "のぞみ",
+                            "Kindnum": "6"
+                        },
+                        {
+                            "Kindname": "ひかり",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "こだま",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "19",
+                    "number": "9",
+                    "Kindlist": [
+                        {
+                            "Kindname": "のぞみ",
+                            "Kindnum": "6"
+                        },
+                        {
+                            "Kindname": "ひかり",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "こだま",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "20",
+                    "number": "7",
+                    "Kindlist": [
+                        {
+                            "Kindname": "のぞみ",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "ひかり",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "こだま",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "21",
+                    "number": "4",
+                    "Kindlist": [
+                        {
+                            "Kindname": "のぞみ",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "ひかり",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "こだま",
+                            "Kindnum": "2"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "22",
+                    "number": "3",
+                    "Kindlist": [
+                        {
+                            "Kindname": "のぞみ",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "ひかり",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "こだま",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "23",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "のぞみ",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "ひかり",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "こだま",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "24",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "のぞみ",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "ひかり",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "こだま",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "25",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "のぞみ",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "ひかり",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "こだま",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "26",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "のぞみ",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "ひかり",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "こだま",
+                            "Kindnum": "0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Line": "ＪＲ山陽新幹線博多・広島方面",
+            "Linecode": "1461",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "のぞみ",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "ひかり",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "こだま",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "みずほ",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "4",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "のぞみ",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "ひかり",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "こだま",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "みずほ",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "5",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "のぞみ",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "ひかり",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "こだま",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "みずほ",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "6",
+                    "number": "5",
+                    "Kindlist": [
+                        {
+                            "Kindname": "のぞみ",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "ひかり",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "こだま",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "みずほ",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "7",
+                    "number": "6",
+                    "Kindlist": [
+                        {
+                            "Kindname": "のぞみ",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "ひかり",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "こだま",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "みずほ",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "8",
+                    "number": "7",
+                    "Kindlist": [
+                        {
+                            "Kindname": "のぞみ",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "ひかり",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "こだま",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "みずほ",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "9",
+                    "number": "6",
+                    "Kindlist": [
+                        {
+                            "Kindname": "のぞみ",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "ひかり",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "こだま",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "みずほ",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "10",
+                    "number": "7",
+                    "Kindlist": [
+                        {
+                            "Kindname": "のぞみ",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "ひかり",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "こだま",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "みずほ",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "11",
+                    "number": "7",
+                    "Kindlist": [
+                        {
+                            "Kindname": "のぞみ",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "ひかり",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "こだま",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "みずほ",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "12",
+                    "number": "5",
+                    "Kindlist": [
+                        {
+                            "Kindname": "のぞみ",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "ひかり",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "こだま",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "みずほ",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "13",
+                    "number": "5",
+                    "Kindlist": [
+                        {
+                            "Kindname": "のぞみ",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "ひかり",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "こだま",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "みずほ",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "14",
+                    "number": "5",
+                    "Kindlist": [
+                        {
+                            "Kindname": "のぞみ",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "ひかり",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "こだま",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "みずほ",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "15",
+                    "number": "6",
+                    "Kindlist": [
+                        {
+                            "Kindname": "のぞみ",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "ひかり",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "こだま",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "みずほ",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "16",
+                    "number": "7",
+                    "Kindlist": [
+                        {
+                            "Kindname": "のぞみ",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "ひかり",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "こだま",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "みずほ",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "17",
+                    "number": "7",
+                    "Kindlist": [
+                        {
+                            "Kindname": "のぞみ",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "ひかり",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "こだま",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "みずほ",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "18",
+                    "number": "7",
+                    "Kindlist": [
+                        {
+                            "Kindname": "のぞみ",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "ひかり",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "こだま",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "みずほ",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "19",
+                    "number": "7",
+                    "Kindlist": [
+                        {
+                            "Kindname": "のぞみ",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "ひかり",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "こだま",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "みずほ",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "20",
+                    "number": "6",
+                    "Kindlist": [
+                        {
+                            "Kindname": "のぞみ",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "ひかり",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "こだま",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "みずほ",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "21",
+                    "number": "5",
+                    "Kindlist": [
+                        {
+                            "Kindname": "のぞみ",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "ひかり",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "こだま",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "みずほ",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "22",
+                    "number": "5",
+                    "Kindlist": [
+                        {
+                            "Kindname": "のぞみ",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "ひかり",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "こだま",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "みずほ",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "23",
+                    "number": "2",
+                    "Kindlist": [
+                        {
+                            "Kindname": "のぞみ",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "ひかり",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "こだま",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "みずほ",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "24",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "のぞみ",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "ひかり",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "こだま",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "みずほ",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "25",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "のぞみ",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "ひかり",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "こだま",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "みずほ",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "26",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "のぞみ",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "ひかり",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "こだま",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "みずほ",
+                            "Kindnum": "0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Line": "ＪＲおおさか東線久宝寺・奈良方面",
+            "Linecode": "1671",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "直通快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "4",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "直通快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "5",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "直通快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "6",
+                    "number": "3",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "直通快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "7",
+                    "number": "4",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "直通快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "8",
+                    "number": "3",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "直通快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "9",
+                    "number": "4",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "直通快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "10",
+                    "number": "4",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "直通快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "11",
+                    "number": "4",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "直通快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "12",
+                    "number": "4",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "直通快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "13",
+                    "number": "4",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "直通快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "14",
+                    "number": "4",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "直通快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "15",
+                    "number": "4",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "直通快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "16",
+                    "number": "4",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "直通快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "17",
+                    "number": "5",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "直通快速",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "18",
+                    "number": "5",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "直通快速",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "19",
+                    "number": "5",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "直通快速",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "20",
+                    "number": "5",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "直通快速",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "21",
+                    "number": "3",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "直通快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "22",
+                    "number": "3",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "直通快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "23",
+                    "number": "2",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "直通快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "24",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "直通快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "25",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "直通快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "26",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "直通快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Line": "ＪＲ京都線姫路・西明石方面",
+            "Linecode": "1771",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "新快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "4",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "新快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "5",
+                    "number": "6",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "5"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "新快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "6",
+                    "number": "13",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "8"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "新快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "7",
+                    "number": "25",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "11"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "6"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "新快速",
+                            "Kindnum": "4"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "8",
+                    "number": "28",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "12"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "7"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "新快速",
+                            "Kindnum": "6"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "9",
+                    "number": "25",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "10"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "7"
+                        },
+                        {
+                            "Kindname": "新快速",
+                            "Kindnum": "4"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "10",
+                    "number": "20",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "8"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "新快速",
+                            "Kindnum": "4"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "11",
+                    "number": "21",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "8"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "5"
+                        },
+                        {
+                            "Kindname": "新快速",
+                            "Kindnum": "4"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "12",
+                    "number": "19",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "8"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "新快速",
+                            "Kindnum": "4"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "13",
+                    "number": "20",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "8"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "新快速",
+                            "Kindnum": "4"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "14",
+                    "number": "18",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "8"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "新快速",
+                            "Kindnum": "4"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "15",
+                    "number": "21",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "8"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "5"
+                        },
+                        {
+                            "Kindname": "新快速",
+                            "Kindnum": "4"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "16",
+                    "number": "17",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "8"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "新快速",
+                            "Kindnum": "4"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "17",
+                    "number": "20",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "8"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "新快速",
+                            "Kindnum": "4"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "18",
+                    "number": "22",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "8"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "6"
+                        },
+                        {
+                            "Kindname": "新快速",
+                            "Kindnum": "4"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "19",
+                    "number": "22",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "8"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "6"
+                        },
+                        {
+                            "Kindname": "新快速",
+                            "Kindnum": "4"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "20",
+                    "number": "22",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "8"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "6"
+                        },
+                        {
+                            "Kindname": "新快速",
+                            "Kindnum": "4"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "21",
+                    "number": "21",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "7"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "6"
+                        },
+                        {
+                            "Kindname": "新快速",
+                            "Kindnum": "4"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "22",
+                    "number": "15",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "6"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "新快速",
+                            "Kindnum": "3"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "23",
+                    "number": "13",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "6"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "新快速",
+                            "Kindnum": "3"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "24",
+                    "number": "5",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "新快速",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "25",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "新快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "26",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "新快速",
+                            "Kindnum": "0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Line": "ＪＲ京都線京都・高槻方面",
+            "Linecode": "1770",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "新快速",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "4",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "新快速",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "5",
+                    "number": "5",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "新快速",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "6",
+                    "number": "14",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "8"
+                        },
+                        {
+                            "Kindname": "新快速",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "7",
+                    "number": "22",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "9"
+                        },
+                        {
+                            "Kindname": "新快速",
+                            "Kindnum": "6"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "3"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "8",
+                    "number": "29",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "15"
+                        },
+                        {
+                            "Kindname": "新快速",
+                            "Kindnum": "6"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "4"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "9",
+                    "number": "21",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "9"
+                        },
+                        {
+                            "Kindname": "新快速",
+                            "Kindnum": "5"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "3"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "10",
+                    "number": "20",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "8"
+                        },
+                        {
+                            "Kindname": "新快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "4"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "11",
+                    "number": "18",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "8"
+                        },
+                        {
+                            "Kindname": "新快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "2"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "12",
+                    "number": "18",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "8"
+                        },
+                        {
+                            "Kindname": "新快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "2"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "13",
+                    "number": "18",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "8"
+                        },
+                        {
+                            "Kindname": "新快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "2"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "14",
+                    "number": "17",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "8"
+                        },
+                        {
+                            "Kindname": "新快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "15",
+                    "number": "19",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "8"
+                        },
+                        {
+                            "Kindname": "新快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "3"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "16",
+                    "number": "17",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "8"
+                        },
+                        {
+                            "Kindname": "新快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "17",
+                    "number": "19",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "8"
+                        },
+                        {
+                            "Kindname": "新快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "3"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "18",
+                    "number": "22",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "8"
+                        },
+                        {
+                            "Kindname": "新快速",
+                            "Kindnum": "7"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "3"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "19",
+                    "number": "19",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "8"
+                        },
+                        {
+                            "Kindname": "新快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "3"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "20",
+                    "number": "20",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "8"
+                        },
+                        {
+                            "Kindname": "新快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "4"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "21",
+                    "number": "19",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "8"
+                        },
+                        {
+                            "Kindname": "新快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "3"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "22",
+                    "number": "13",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "7"
+                        },
+                        {
+                            "Kindname": "新快速",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "23",
+                    "number": "12",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "6"
+                        },
+                        {
+                            "Kindname": "新快速",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "24",
+                    "number": "5",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "新快速",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "25",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "新快速",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "26",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "新快速",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "快速",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Line": "OsakaMetro御堂筋線なかもず・天王寺方面",
+            "Linecode": "4271",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "4",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "5",
+                    "number": "6",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "6"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "6",
+                    "number": "9",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "9"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "7",
+                    "number": "17",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "17"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "8",
+                    "number": "20",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "20"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "9",
+                    "number": "17",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "17"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "10",
+                    "number": "15",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "15"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "11",
+                    "number": "15",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "15"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "12",
+                    "number": "15",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "15"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "13",
+                    "number": "15",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "15"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "14",
+                    "number": "15",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "15"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "15",
+                    "number": "15",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "15"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "16",
+                    "number": "16",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "16"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "17",
+                    "number": "18",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "18"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "18",
+                    "number": "18",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "18"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "19",
+                    "number": "18",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "18"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "20",
+                    "number": "19",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "19"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "21",
+                    "number": "15",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "15"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "22",
+                    "number": "12",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "12"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "23",
+                    "number": "10",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "10"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "24",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "25",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "26",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Line": "OsakaMetro御堂筋線千里中央・江坂方面",
+            "Linecode": "4270",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "4",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "5",
+                    "number": "4",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "4"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "6",
+                    "number": "7",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "7"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "7",
+                    "number": "12",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "12"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "8",
+                    "number": "13",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "13"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "9",
+                    "number": "10",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "10"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "10",
+                    "number": "8",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "8"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "11",
+                    "number": "8",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "8"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "12",
+                    "number": "7",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "7"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "13",
+                    "number": "8",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "8"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "14",
+                    "number": "7",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "7"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "15",
+                    "number": "8",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "8"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "16",
+                    "number": "8",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "8"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "17",
+                    "number": "12",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "12"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "18",
+                    "number": "12",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "12"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "19",
+                    "number": "10",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "10"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "20",
+                    "number": "9",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "9"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "21",
+                    "number": "7",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "7"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "22",
+                    "number": "6",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "6"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "23",
+                    "number": "6",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "6"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "24",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "25",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "26",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

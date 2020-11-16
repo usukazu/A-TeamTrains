@@ -1,0 +1,1578 @@
+{
+    "Station": "橿原神宮前",
+    "Sum": [
+        {
+            "Line": "近鉄橿原線京都・大和西大寺方面",
+            "number": "136",
+            "LineColor": "247,000,016",
+            "Kindlist": [
+                {
+                    "Kindname": "普通",
+                    "Kindnum": "69"
+                },
+                {
+                    "Kindname": "急行",
+                    "Kindnum": "39"
+                },
+                {
+                    "Kindname": "特急",
+                    "Kindnum": "28"
+                }
+            ]
+        },
+        {
+            "Line": "近鉄南大阪線大阪阿部野橋・古市方面",
+            "number": "136",
+            "LineColor": "247,000,016",
+            "Kindlist": [
+                {
+                    "Kindname": "普通",
+                    "Kindnum": "43"
+                },
+                {
+                    "Kindname": "急行",
+                    "Kindnum": "34"
+                },
+                {
+                    "Kindname": "準急",
+                    "Kindnum": "31"
+                },
+                {
+                    "Kindname": "特急",
+                    "Kindnum": "27"
+                },
+                {
+                    "Kindname": "区間急行",
+                    "Kindnum": "1"
+                }
+            ]
+        },
+        {
+            "Line": "近鉄吉野線吉野・吉野口方面",
+            "number": "65",
+            "LineColor": "247,000,016",
+            "Kindlist": [
+                {
+                    "Kindname": "普通",
+                    "Kindnum": "12"
+                },
+                {
+                    "Kindname": "急行",
+                    "Kindnum": "29"
+                },
+                {
+                    "Kindname": "特急",
+                    "Kindnum": "24"
+                }
+            ]
+        }
+    ],
+    "Linelist": [
+        {
+            "Line": "近鉄橿原線京都・大和西大寺方面",
+            "Linecode": "3830",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "4",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "5",
+                    "number": "4",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "6",
+                    "number": "8",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "7",
+                    "number": "10",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "6"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "8",
+                    "number": "7",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "2"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "9",
+                    "number": "6",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "10",
+                    "number": "8",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "2"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "11",
+                    "number": "7",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "2"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "12",
+                    "number": "7",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "2"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "13",
+                    "number": "7",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "2"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "14",
+                    "number": "7",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "2"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "15",
+                    "number": "9",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "3"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "16",
+                    "number": "7",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "17",
+                    "number": "6",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "18",
+                    "number": "8",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "2"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "19",
+                    "number": "9",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "5"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "2"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "20",
+                    "number": "8",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "2"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "21",
+                    "number": "8",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "2"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "22",
+                    "number": "6",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "23",
+                    "number": "4",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "24",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "25",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "26",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Line": "近鉄南大阪線大阪阿部野橋・古市方面",
+            "Linecode": "3860",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "準急",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "区間急行",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "4",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "準急",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "区間急行",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "5",
+                    "number": "4",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "準急",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "区間急行",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "6",
+                    "number": "10",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "準急",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "区間急行",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "7",
+                    "number": "8",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "準急",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "区間急行",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "8",
+                    "number": "8",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "準急",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "区間急行",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "9",
+                    "number": "8",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "準急",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "区間急行",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "10",
+                    "number": "8",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "準急",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "区間急行",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "11",
+                    "number": "7",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "準急",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "区間急行",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "12",
+                    "number": "7",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "準急",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "区間急行",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "13",
+                    "number": "7",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "準急",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "区間急行",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "14",
+                    "number": "7",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "準急",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "区間急行",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "15",
+                    "number": "7",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "準急",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "区間急行",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "16",
+                    "number": "8",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "準急",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "区間急行",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "17",
+                    "number": "8",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "準急",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "区間急行",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "18",
+                    "number": "8",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "準急",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "区間急行",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "19",
+                    "number": "8",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "準急",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "区間急行",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "20",
+                    "number": "8",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "準急",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "区間急行",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "21",
+                    "number": "7",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "準急",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "区間急行",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "22",
+                    "number": "5",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "4"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "準急",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "区間急行",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "23",
+                    "number": "3",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "準急",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "区間急行",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "24",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "準急",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "区間急行",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "25",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "準急",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "区間急行",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "26",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "準急",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "区間急行",
+                            "Kindnum": "0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Line": "近鉄吉野線吉野・吉野口方面",
+            "Linecode": "3901",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "4",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "5",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "6",
+                    "number": "2",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "7",
+                    "number": "3",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "8",
+                    "number": "3",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "9",
+                    "number": "4",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "10",
+                    "number": "4",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "2"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "11",
+                    "number": "3",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "12",
+                    "number": "3",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "13",
+                    "number": "3",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "14",
+                    "number": "3",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "15",
+                    "number": "3",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "16",
+                    "number": "4",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "2"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "17",
+                    "number": "5",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "2"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "18",
+                    "number": "4",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "2"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "19",
+                    "number": "5",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "2"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "20",
+                    "number": "4",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "2"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "21",
+                    "number": "4",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "2"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "22",
+                    "number": "4",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "23",
+                    "number": "3",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "24",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "25",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "26",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "急行",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "特急",
+                            "Kindnum": "0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,721 @@
+{
+    "Station": "新玉名",
+    "Sum": [
+        {
+            "Line": "ＪＲ九州新幹線熊本・鹿児島中央方面",
+            "number": "25",
+            "LineColor": "187,032,037",
+            "Kindlist": [
+                {
+                    "Kindname": "つばめ",
+                    "Kindnum": "23"
+                },
+                {
+                    "Kindname": "さくら",
+                    "Kindnum": "2"
+                }
+            ]
+        },
+        {
+            "Line": "ＪＲ九州新幹線博多・新大阪方面",
+            "number": "27",
+            "LineColor": "187,032,037",
+            "Kindlist": [
+                {
+                    "Kindname": "つばめ",
+                    "Kindnum": "25"
+                },
+                {
+                    "Kindname": "さくら",
+                    "Kindnum": "2"
+                }
+            ]
+        }
+    ],
+    "Linelist": [
+        {
+            "Line": "ＪＲ九州新幹線熊本・鹿児島中央方面",
+            "Linecode": "2331",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "つばめ",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "4",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "つばめ",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "5",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "つばめ",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "6",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "つばめ",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "7",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "つばめ",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "8",
+                    "number": "2",
+                    "Kindlist": [
+                        {
+                            "Kindname": "つばめ",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "9",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "つばめ",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "10",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "つばめ",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "11",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "つばめ",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "12",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "つばめ",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "13",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "つばめ",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "14",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "つばめ",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "15",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "つばめ",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "16",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "つばめ",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "17",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "つばめ",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "18",
+                    "number": "2",
+                    "Kindlist": [
+                        {
+                            "Kindname": "つばめ",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "19",
+                    "number": "3",
+                    "Kindlist": [
+                        {
+                            "Kindname": "つばめ",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "20",
+                    "number": "2",
+                    "Kindlist": [
+                        {
+                            "Kindname": "つばめ",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "21",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "つばめ",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "22",
+                    "number": "2",
+                    "Kindlist": [
+                        {
+                            "Kindname": "つばめ",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "23",
+                    "number": "2",
+                    "Kindlist": [
+                        {
+                            "Kindname": "つばめ",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "24",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "つばめ",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "25",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "つばめ",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "26",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "つばめ",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Line": "ＪＲ九州新幹線博多・新大阪方面",
+            "Linecode": "2330",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "つばめ",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "4",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "つばめ",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "5",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "つばめ",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "6",
+                    "number": "3",
+                    "Kindlist": [
+                        {
+                            "Kindname": "つばめ",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "7",
+                    "number": "3",
+                    "Kindlist": [
+                        {
+                            "Kindname": "つばめ",
+                            "Kindnum": "3"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "8",
+                    "number": "2",
+                    "Kindlist": [
+                        {
+                            "Kindname": "つばめ",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "9",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "つばめ",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "10",
+                    "number": "2",
+                    "Kindlist": [
+                        {
+                            "Kindname": "つばめ",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "1"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "11",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "つばめ",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "12",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "つばめ",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "13",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "つばめ",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "14",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "つばめ",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "15",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "つばめ",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "16",
+                    "number": "1",
+                    "Kindlist": [
+                        {
+                            "Kindname": "つばめ",
+                            "Kindnum": "1"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "17",
+                    "number": "2",
+                    "Kindlist": [
+                        {
+                            "Kindname": "つばめ",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "18",
+                    "number": "2",
+                    "Kindlist": [
+                        {
+                            "Kindname": "つばめ",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "19",
+                    "number": "2",
+                    "Kindlist": [
+                        {
+                            "Kindname": "つばめ",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "20",
+                    "number": "2",
+                    "Kindlist": [
+                        {
+                            "Kindname": "つばめ",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "21",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "つばめ",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "22",
+                    "number": "2",
+                    "Kindlist": [
+                        {
+                            "Kindname": "つばめ",
+                            "Kindnum": "2"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "23",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "つばめ",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "24",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "つばめ",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "25",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "つばめ",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "26",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "つばめ",
+                            "Kindnum": "0"
+                        },
+                        {
+                            "Kindname": "さくら",
+                            "Kindnum": "0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

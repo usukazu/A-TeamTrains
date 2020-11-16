@@ -1,0 +1,521 @@
+{
+    "Station": "京橋(東京都)",
+    "Sum": [
+        {
+            "Line": "東京メトロ銀座線渋谷方面",
+            "number": "376",
+            "LineColor": "240,150,000",
+            "Kindlist": [
+                {
+                    "Kindname": "普通",
+                    "Kindnum": "376"
+                }
+            ]
+        },
+        {
+            "Line": "東京メトロ銀座線浅草・上野方面",
+            "number": "376",
+            "LineColor": "240,150,000",
+            "Kindlist": [
+                {
+                    "Kindname": "普通",
+                    "Kindnum": "376"
+                }
+            ]
+        }
+    ],
+    "Linelist": [
+        {
+            "Line": "東京メトロ銀座線渋谷方面",
+            "Linecode": "3271",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "4",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "5",
+                    "number": "5",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "5"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "6",
+                    "number": "12",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "12"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "7",
+                    "number": "24",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "24"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "8",
+                    "number": "30",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "30"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "9",
+                    "number": "24",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "24"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "10",
+                    "number": "20",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "20"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "11",
+                    "number": "20",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "20"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "12",
+                    "number": "20",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "20"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "13",
+                    "number": "20",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "20"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "14",
+                    "number": "20",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "20"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "15",
+                    "number": "20",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "20"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "16",
+                    "number": "24",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "24"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "17",
+                    "number": "26",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "26"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "18",
+                    "number": "27",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "27"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "19",
+                    "number": "23",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "23"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "20",
+                    "number": "15",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "15"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "21",
+                    "number": "15",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "15"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "22",
+                    "number": "15",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "15"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "23",
+                    "number": "12",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "12"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "24",
+                    "number": "4",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "4"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "25",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "26",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Line": "東京メトロ銀座線浅草・上野方面",
+            "Linecode": "3270",
+            "HourTable": [
+                {
+                    "Hour": "3",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "4",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "5",
+                    "number": "5",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "5"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "6",
+                    "number": "11",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "11"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "7",
+                    "number": "17",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "17"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "8",
+                    "number": "29",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "29"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "9",
+                    "number": "28",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "28"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "10",
+                    "number": "20",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "20"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "11",
+                    "number": "20",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "20"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "12",
+                    "number": "20",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "20"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "13",
+                    "number": "20",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "20"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "14",
+                    "number": "20",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "20"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "15",
+                    "number": "20",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "20"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "16",
+                    "number": "22",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "22"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "17",
+                    "number": "26",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "26"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "18",
+                    "number": "27",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "27"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "19",
+                    "number": "24",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "24"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "20",
+                    "number": "18",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "18"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "21",
+                    "number": "15",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "15"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "22",
+                    "number": "15",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "15"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "23",
+                    "number": "13",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "13"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "24",
+                    "number": "6",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "6"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "25",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        }
+                    ]
+                },
+                {
+                    "Hour": "26",
+                    "number": "0",
+                    "Kindlist": [
+                        {
+                            "Kindname": "普通",
+                            "Kindnum": "0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
