@@ -65,11 +65,6 @@ var text1 = svg.selectAll("text1")
     svg.append("text").text("路線方面別 "+ Station)
     .attr("x",80)
     .attr("y",50);
-
-    var text2 = svg.selectAll("text2").data(SumTable).enter().append("text");
-tt_num = text2.text(function(d,i){return d.number;})
-.attr("x", function(d, i) { return (i*40) + 20;})
-.attr("y",function(d,i) { return 295 - SumGraphScale(d.number); })
 }
 
 function BackButton(TimeTable,data, Station){
